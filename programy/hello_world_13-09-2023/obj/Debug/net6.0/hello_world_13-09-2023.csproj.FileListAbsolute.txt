@@ -1,0 +1,15 @@
+C:\Users\Xopero\source\repos\praktyki-xopero1\programy\13.09.2023-hello_world\hello_world_13-09-2023\bin\Debug\net6.0\hello_world_13-09-2023.exe
+C:\Users\Xopero\source\repos\praktyki-xopero1\programy\13.09.2023-hello_world\hello_world_13-09-2023\bin\Debug\net6.0\hello_world_13-09-2023.deps.json
+C:\Users\Xopero\source\repos\praktyki-xopero1\programy\13.09.2023-hello_world\hello_world_13-09-2023\bin\Debug\net6.0\hello_world_13-09-2023.runtimeconfig.json
+C:\Users\Xopero\source\repos\praktyki-xopero1\programy\13.09.2023-hello_world\hello_world_13-09-2023\bin\Debug\net6.0\hello_world_13-09-2023.dll
+C:\Users\Xopero\source\repos\praktyki-xopero1\programy\13.09.2023-hello_world\hello_world_13-09-2023\bin\Debug\net6.0\hello_world_13-09-2023.pdb
+C:\Users\Xopero\source\repos\praktyki-xopero1\programy\13.09.2023-hello_world\hello_world_13-09-2023\obj\Debug\net6.0\hello_world_13-09-2023.csproj.AssemblyReference.cache
+C:\Users\Xopero\source\repos\praktyki-xopero1\programy\13.09.2023-hello_world\hello_world_13-09-2023\obj\Debug\net6.0\hello_world_13-09-2023.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xopero\source\repos\praktyki-xopero1\programy\13.09.2023-hello_world\hello_world_13-09-2023\obj\Debug\net6.0\hello_world_13-09-2023.AssemblyInfoInputs.cache
+C:\Users\Xopero\source\repos\praktyki-xopero1\programy\13.09.2023-hello_world\hello_world_13-09-2023\obj\Debug\net6.0\hello_world_13-09-2023.AssemblyInfo.cs
+C:\Users\Xopero\source\repos\praktyki-xopero1\programy\13.09.2023-hello_world\hello_world_13-09-2023\obj\Debug\net6.0\hello_world_13-09-2023.csproj.CoreCompileInputs.cache
+C:\Users\Xopero\source\repos\praktyki-xopero1\programy\13.09.2023-hello_world\hello_world_13-09-2023\obj\Debug\net6.0\hello_world_13-09-2023.dll
+C:\Users\Xopero\source\repos\praktyki-xopero1\programy\13.09.2023-hello_world\hello_world_13-09-2023\obj\Debug\net6.0\refint\hello_world_13-09-2023.dll
+C:\Users\Xopero\source\repos\praktyki-xopero1\programy\13.09.2023-hello_world\hello_world_13-09-2023\obj\Debug\net6.0\hello_world_13-09-2023.pdb
+C:\Users\Xopero\source\repos\praktyki-xopero1\programy\13.09.2023-hello_world\hello_world_13-09-2023\obj\Debug\net6.0\hello_world_13-09-2023.genruntimeconfig.cache
+C:\Users\Xopero\source\repos\praktyki-xopero1\programy\13.09.2023-hello_world\hello_world_13-09-2023\obj\Debug\net6.0\ref\hello_world_13-09-2023.dll
