@@ -33,6 +33,8 @@
             joesCashLabel = new Label();
             button1 = new Button();
             button2 = new Button();
+            joeGivesToBob = new Button();
+            bobGivesToJoe = new Button();
             SuspendLayout();
             // 
             // bankCashLabel
@@ -82,18 +84,41 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // joeGivesToBob
+            // 
+            joeGivesToBob.Location = new Point(12, 143);
+            joeGivesToBob.Name = "joeGivesToBob";
+            joeGivesToBob.Size = new Size(107, 39);
+            joeGivesToBob.TabIndex = 5;
+            joeGivesToBob.Text = "Joe daje 10 zł Bobowi";
+            joeGivesToBob.UseVisualStyleBackColor = true;
+            joeGivesToBob.Click += joeGivesToBob_Click;
+            // 
+            // bobGivesToJoe
+            // 
+            bobGivesToJoe.Location = new Point(125, 143);
+            bobGivesToJoe.Name = "bobGivesToJoe";
+            bobGivesToJoe.RightToLeft = RightToLeft.Yes;
+            bobGivesToJoe.Size = new Size(107, 39);
+            bobGivesToJoe.TabIndex = 6;
+            bobGivesToJoe.Text = "Bob daje 10 zł Joemu";
+            bobGivesToJoe.UseVisualStyleBackColor = true;
+            bobGivesToJoe.Click += bobGivesToJoe_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(244, 152);
+            ClientSize = new Size(244, 197);
+            Controls.Add(bobGivesToJoe);
+            Controls.Add(joeGivesToBob);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(joesCashLabel);
             Controls.Add(bobsCashLabel);
             Controls.Add(bankCashLabel);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Zabawa z Joem i Bobem";
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
@@ -106,5 +131,7 @@
         private Label joesCashLabel;
         private Button button1;
         private Button button2;
+        private Button joeGivesToBob;
+        private Button bobGivesToJoe;
     }
 }

@@ -43,5 +43,17 @@ namespace Program2___projekt_dla_facetów__
             bank += bob.GiveCash(5);
             UpdateForm();
         }
+
+        private void joeGivesToBob_Click(object sender, EventArgs e)
+        {
+            bob.RecieveCash(joe.GiveCash(10));
+            UpdateForm();
+        }
+
+        private void bobGivesToJoe_Click(object sender, EventArgs e)
+        {
+            joe.RecieveCash(bob.GiveCash(10));
+            UpdateForm();
+        }
     }
 }
