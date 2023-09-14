@@ -1,0 +1,11 @@
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program6 (coś błyskotliwego)\program6 (coś błyskotliwego)\bin\Debug\program6 (coś błyskotliwego).exe.config
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program6 (coś błyskotliwego)\program6 (coś błyskotliwego)\bin\Debug\program6 (coś błyskotliwego).exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program6 (coś błyskotliwego)\program6 (coś błyskotliwego)\bin\Debug\program6 (coś błyskotliwego).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program6 (coś błyskotliwego)\program6 (coś błyskotliwego)\obj\Debug\program6 (coś błyskotliwego).csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program6 (coś błyskotliwego)\program6 (coś błyskotliwego)\obj\Debug\program6 (coś błyskotliwego).csproj.SuggestedBindingRedirects.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program6 (coś błyskotliwego)\program6 (coś błyskotliwego)\obj\Debug\program6__coś_błyskotliwego_.Form1.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program6 (coś błyskotliwego)\program6 (coś błyskotliwego)\obj\Debug\program6__coś_błyskotliwego_.Properties.Resources.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program6 (coś błyskotliwego)\program6 (coś błyskotliwego)\obj\Debug\program6 (coś błyskotliwego).csproj.GenerateResource.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program6 (coś błyskotliwego)\program6 (coś błyskotliwego)\obj\Debug\program6 (coś błyskotliwego).csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program6 (coś błyskotliwego)\program6 (coś błyskotliwego)\obj\Debug\program6 (coś błyskotliwego).exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program6 (coś błyskotliwego)\program6 (coś błyskotliwego)\obj\Debug\program6 (coś błyskotliwego).pdb

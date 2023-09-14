@@ -1,0 +1,16 @@
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\rozdział2\rozdział2\bin\Debug\rozdział2.exe.config
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\rozdział2\rozdział2\bin\Debug\rozdział2.exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\rozdział2\rozdział2\bin\Debug\rozdział2.pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\rozdział2\rozdział2\obj\Debug\rozdział2.csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\rozdział2\rozdział2\obj\Debug\rozdział2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\rozdział2\rozdział2\obj\Debug\MainWindow.g.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\rozdział2\rozdział2\obj\Debug\App.g.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\rozdział2\rozdział2\obj\Debug\rozdział2_MarkupCompile.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\rozdział2\rozdział2\obj\Debug\rozdział2_MarkupCompile.lref
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\rozdział2\rozdział2\obj\Debug\MainWindow.baml
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\rozdział2\rozdział2\obj\Debug\rozdział2.g.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\rozdział2\rozdział2\obj\Debug\rozdział2.Properties.Resources.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\rozdział2\rozdział2\obj\Debug\rozdział2.csproj.GenerateResource.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\rozdział2\rozdział2\obj\Debug\rozdział2.csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\rozdział2\rozdział2\obj\Debug\rozdział2.exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\rozdział2\rozdział2\obj\Debug\rozdział2.pdb

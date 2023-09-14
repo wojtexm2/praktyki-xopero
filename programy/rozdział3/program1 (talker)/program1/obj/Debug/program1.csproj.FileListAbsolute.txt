@@ -1,0 +1,11 @@
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\program1\program1\bin\Debug\program1.exe.config
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\program1\program1\bin\Debug\program1.exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\program1\program1\bin\Debug\program1.pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\program1\program1\obj\Debug\program1.csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\program1\program1\obj\Debug\program1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\program1\program1\obj\Debug\program1.Form1.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\program1\program1\obj\Debug\program1.Properties.Resources.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\program1\program1\obj\Debug\program1.csproj.GenerateResource.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\program1\program1\obj\Debug\program1.csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\program1\program1\obj\Debug\program1.exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\program1\program1\obj\Debug\program1.pdb

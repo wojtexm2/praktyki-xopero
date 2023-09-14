@@ -1,0 +1,16 @@
+C:\Users\Xopero\source\rozdział1\rozdział1\rozdział1\bin\Debug\rozdział1.exe.config
+C:\Users\Xopero\source\rozdział1\rozdział1\rozdział1\bin\Debug\rozdział1.exe
+C:\Users\Xopero\source\rozdział1\rozdział1\rozdział1\bin\Debug\rozdział1.pdb
+C:\Users\Xopero\source\rozdział1\rozdział1\rozdział1\obj\Debug\rozdział1.csproj.AssemblyReference.cache
+C:\Users\Xopero\source\rozdział1\rozdział1\rozdział1\obj\Debug\rozdział1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Xopero\source\rozdział1\rozdział1\rozdział1\obj\Debug\Page1.g.cs
+C:\Users\Xopero\source\rozdział1\rozdział1\rozdział1\obj\Debug\App.g.cs
+C:\Users\Xopero\source\rozdział1\rozdział1\rozdział1\obj\Debug\rozdział1_MarkupCompile.cache
+C:\Users\Xopero\source\rozdział1\rozdział1\rozdział1\obj\Debug\rozdział1_MarkupCompile.lref
+C:\Users\Xopero\source\rozdział1\rozdział1\rozdział1\obj\Debug\Page1.baml
+C:\Users\Xopero\source\rozdział1\rozdział1\rozdział1\obj\Debug\rozdział1.g.resources
+C:\Users\Xopero\source\rozdział1\rozdział1\rozdział1\obj\Debug\rozdział1.Properties.Resources.resources
+C:\Users\Xopero\source\rozdział1\rozdział1\rozdział1\obj\Debug\rozdział1.csproj.GenerateResource.cache
+C:\Users\Xopero\source\rozdział1\rozdział1\rozdział1\obj\Debug\rozdział1.csproj.CoreCompileInputs.cache
+C:\Users\Xopero\source\rozdział1\rozdział1\rozdział1\obj\Debug\rozdział1.exe
+C:\Users\Xopero\source\rozdział1\rozdział1\rozdział1\obj\Debug\rozdział1.pdb

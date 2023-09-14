@@ -1,0 +1,16 @@
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program3(if-y)v2\program3(if-y)v2\bin\Debug\program3(if-y)v2.exe.config
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program3(if-y)v2\program3(if-y)v2\bin\Debug\program3(if-y)v2.exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program3(if-y)v2\program3(if-y)v2\bin\Debug\program3(if-y)v2.pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program3(if-y)v2\program3(if-y)v2\obj\Debug\program3(if-y)v2.csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program3(if-y)v2\program3(if-y)v2\obj\Debug\program3(if-y)v2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program3(if-y)v2\program3(if-y)v2\obj\Debug\MainWindow.g.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program3(if-y)v2\program3(if-y)v2\obj\Debug\App.g.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program3(if-y)v2\program3(if-y)v2\obj\Debug\program3(if-y)v2_MarkupCompile.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program3(if-y)v2\program3(if-y)v2\obj\Debug\program3(if-y)v2_MarkupCompile.lref
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program3(if-y)v2\program3(if-y)v2\obj\Debug\MainWindow.baml
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program3(if-y)v2\program3(if-y)v2\obj\Debug\program3(if-y)v2.g.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program3(if-y)v2\program3(if-y)v2\obj\Debug\program3_if_y_v2.Properties.Resources.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program3(if-y)v2\program3(if-y)v2\obj\Debug\program3(if-y)v2.csproj.GenerateResource.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program3(if-y)v2\program3(if-y)v2\obj\Debug\program3(if-y)v2.csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program3(if-y)v2\program3(if-y)v2\obj\Debug\program3(if-y)v2.exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział2\program3(if-y)v2\program3(if-y)v2\obj\Debug\program3(if-y)v2.pdb
