@@ -1,0 +1,17 @@
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program1(zwrot kosztów)\program1(zwrot kosztów)\bin\Debug\net6.0-windows\program1(zwrot kosztów).exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program1(zwrot kosztów)\program1(zwrot kosztów)\bin\Debug\net6.0-windows\program1(zwrot kosztów).deps.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program1(zwrot kosztów)\program1(zwrot kosztów)\bin\Debug\net6.0-windows\program1(zwrot kosztów).runtimeconfig.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program1(zwrot kosztów)\program1(zwrot kosztów)\bin\Debug\net6.0-windows\program1(zwrot kosztów).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program1(zwrot kosztów)\program1(zwrot kosztów)\bin\Debug\net6.0-windows\program1(zwrot kosztów).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program1(zwrot kosztów)\program1(zwrot kosztów)\obj\Debug\net6.0-windows\program1(zwrot kosztów).csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program1(zwrot kosztów)\program1(zwrot kosztów)\obj\Debug\net6.0-windows\program1_zwrot_kosztów_.Form1.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program1(zwrot kosztów)\program1(zwrot kosztów)\obj\Debug\net6.0-windows\program1(zwrot kosztów).csproj.GenerateResource.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program1(zwrot kosztów)\program1(zwrot kosztów)\obj\Debug\net6.0-windows\program1(zwrot kosztów).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program1(zwrot kosztów)\program1(zwrot kosztów)\obj\Debug\net6.0-windows\program1(zwrot kosztów).AssemblyInfoInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program1(zwrot kosztów)\program1(zwrot kosztów)\obj\Debug\net6.0-windows\program1(zwrot kosztów).AssemblyInfo.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program1(zwrot kosztów)\program1(zwrot kosztów)\obj\Debug\net6.0-windows\program1(zwrot kosztów).csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program1(zwrot kosztów)\program1(zwrot kosztów)\obj\Debug\net6.0-windows\program1(zwrot kosztów).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program1(zwrot kosztów)\program1(zwrot kosztów)\obj\Debug\net6.0-windows\refint\program1(zwrot kosztów).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program1(zwrot kosztów)\program1(zwrot kosztów)\obj\Debug\net6.0-windows\program1(zwrot kosztów).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program1(zwrot kosztów)\program1(zwrot kosztów)\obj\Debug\net6.0-windows\program1(zwrot kosztów).genruntimeconfig.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program1(zwrot kosztów)\program1(zwrot kosztów)\obj\Debug\net6.0-windows\ref\program1(zwrot kosztów).dll
