@@ -38,17 +38,24 @@
             minimumBetLabel = new Label();
             buttonStart = new Button();
             label2 = new Label();
-            joeBetLabel = new Label();
-            bobBetLabel = new Label();
-            arekBetLabel = new Label();
-            joeRadioButton = new RadioButton();
-            bobRadioButton = new RadioButton();
-            arekRadioButton = new RadioButton();
+            firstBetLabel = new Label();
+            secondBetLabel = new Label();
+            thirdBetLabel = new Label();
+            firstRadioButton = new RadioButton();
+            secondRadioButton = new RadioButton();
+            thirdRadioButton = new RadioButton();
+            labelName = new Label();
+            buttonBet = new Button();
+            numericUpDownBet = new NumericUpDown();
+            label3 = new Label();
+            numericUpDownDogId = new NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownBet).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownDogId).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -135,77 +142,127 @@
             label2.TabIndex = 8;
             label2.Text = "Zakłady";
             // 
-            // joeBetLabel
+            // firstBetLabel
             // 
-            joeBetLabel.AutoSize = true;
-            joeBetLabel.Location = new Point(167, 276);
-            joeBetLabel.Name = "joeBetLabel";
-            joeBetLabel.Size = new Size(68, 15);
-            joeBetLabel.TabIndex = 9;
-            joeBetLabel.Text = "joeBetLabel";
+            firstBetLabel.AutoSize = true;
+            firstBetLabel.Location = new Point(167, 276);
+            firstBetLabel.Name = "firstBetLabel";
+            firstBetLabel.Size = new Size(68, 15);
+            firstBetLabel.TabIndex = 9;
+            firstBetLabel.Text = "joeBetLabel";
             // 
-            // bobBetLabel
+            // secondBetLabel
             // 
-            bobBetLabel.AutoSize = true;
-            bobBetLabel.Location = new Point(167, 302);
-            bobBetLabel.Name = "bobBetLabel";
-            bobBetLabel.Size = new Size(73, 15);
-            bobBetLabel.TabIndex = 10;
-            bobBetLabel.Text = "bobBetLabel";
+            secondBetLabel.AutoSize = true;
+            secondBetLabel.Location = new Point(167, 302);
+            secondBetLabel.Name = "secondBetLabel";
+            secondBetLabel.Size = new Size(73, 15);
+            secondBetLabel.TabIndex = 10;
+            secondBetLabel.Text = "bobBetLabel";
             // 
-            // arekBetLabel
+            // thirdBetLabel
             // 
-            arekBetLabel.AutoSize = true;
-            arekBetLabel.Location = new Point(167, 329);
-            arekBetLabel.Name = "arekBetLabel";
-            arekBetLabel.Size = new Size(74, 15);
-            arekBetLabel.TabIndex = 11;
-            arekBetLabel.Text = "arekBetLabel";
+            thirdBetLabel.AutoSize = true;
+            thirdBetLabel.Location = new Point(167, 329);
+            thirdBetLabel.Name = "thirdBetLabel";
+            thirdBetLabel.Size = new Size(74, 15);
+            thirdBetLabel.TabIndex = 11;
+            thirdBetLabel.Text = "arekBetLabel";
             // 
-            // joeRadioButton
+            // firstRadioButton
             // 
-            joeRadioButton.AutoSize = true;
-            joeRadioButton.Location = new Point(12, 276);
-            joeRadioButton.Name = "joeRadioButton";
-            joeRadioButton.Size = new Size(107, 19);
-            joeRadioButton.TabIndex = 12;
-            joeRadioButton.TabStop = true;
-            joeRadioButton.Text = "joeRadioButton";
-            joeRadioButton.UseVisualStyleBackColor = true;
+            firstRadioButton.AutoSize = true;
+            firstRadioButton.Location = new Point(12, 276);
+            firstRadioButton.Name = "firstRadioButton";
+            firstRadioButton.Size = new Size(107, 19);
+            firstRadioButton.TabIndex = 12;
+            firstRadioButton.TabStop = true;
+            firstRadioButton.Text = "joeRadioButton";
+            firstRadioButton.UseVisualStyleBackColor = true;
             // 
-            // bobRadioButton
+            // secondRadioButton
             // 
-            bobRadioButton.AutoSize = true;
-            bobRadioButton.Location = new Point(12, 302);
-            bobRadioButton.Name = "bobRadioButton";
-            bobRadioButton.Size = new Size(112, 19);
-            bobRadioButton.TabIndex = 13;
-            bobRadioButton.TabStop = true;
-            bobRadioButton.Text = "bobRadioButton";
-            bobRadioButton.UseVisualStyleBackColor = true;
+            secondRadioButton.AutoSize = true;
+            secondRadioButton.Location = new Point(12, 302);
+            secondRadioButton.Name = "secondRadioButton";
+            secondRadioButton.Size = new Size(112, 19);
+            secondRadioButton.TabIndex = 13;
+            secondRadioButton.TabStop = true;
+            secondRadioButton.Text = "bobRadioButton";
+            secondRadioButton.UseVisualStyleBackColor = true;
             // 
-            // arekRadioButton
+            // thirdRadioButton
             // 
-            arekRadioButton.AutoSize = true;
-            arekRadioButton.Location = new Point(12, 329);
-            arekRadioButton.Name = "arekRadioButton";
-            arekRadioButton.Size = new Size(113, 19);
-            arekRadioButton.TabIndex = 14;
-            arekRadioButton.TabStop = true;
-            arekRadioButton.Text = "arekRadioButton";
-            arekRadioButton.UseVisualStyleBackColor = true;
+            thirdRadioButton.AutoSize = true;
+            thirdRadioButton.Location = new Point(12, 329);
+            thirdRadioButton.Name = "thirdRadioButton";
+            thirdRadioButton.Size = new Size(113, 19);
+            thirdRadioButton.TabIndex = 14;
+            thirdRadioButton.TabStop = true;
+            thirdRadioButton.Text = "arekRadioButton";
+            thirdRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // labelName
+            // 
+            labelName.AutoSize = true;
+            labelName.Location = new Point(22, 368);
+            labelName.Name = "labelName";
+            labelName.Size = new Size(37, 15);
+            labelName.TabIndex = 15;
+            labelName.Text = "name";
+            // 
+            // buttonBet
+            // 
+            buttonBet.Location = new Point(98, 364);
+            buttonBet.Name = "buttonBet";
+            buttonBet.Size = new Size(54, 23);
+            buttonBet.TabIndex = 16;
+            buttonBet.Text = "stawia";
+            buttonBet.UseVisualStyleBackColor = true;
+            // 
+            // numericUpDownBet
+            // 
+            numericUpDownBet.Location = new Point(167, 366);
+            numericUpDownBet.Maximum = new decimal(new int[] { 15, 0, 0, 0 });
+            numericUpDownBet.Name = "numericUpDownBet";
+            numericUpDownBet.Size = new Size(50, 23);
+            numericUpDownBet.TabIndex = 17;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(223, 368);
+            label3.Name = "label3";
+            label3.Size = new Size(105, 15);
+            label3.TabIndex = 18;
+            label3.Text = "zł na charta numer";
+            // 
+            // numericUpDownDogId
+            // 
+            numericUpDownDogId.Location = new Point(334, 364);
+            numericUpDownDogId.Maximum = new decimal(new int[] { 4, 0, 0, 0 });
+            numericUpDownDogId.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            numericUpDownDogId.Name = "numericUpDownDogId";
+            numericUpDownDogId.Size = new Size(39, 23);
+            numericUpDownDogId.TabIndex = 19;
+            numericUpDownDogId.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(628, 379);
-            Controls.Add(arekRadioButton);
-            Controls.Add(bobRadioButton);
-            Controls.Add(joeRadioButton);
-            Controls.Add(arekBetLabel);
-            Controls.Add(bobBetLabel);
-            Controls.Add(joeBetLabel);
+            ClientSize = new Size(628, 402);
+            Controls.Add(numericUpDownDogId);
+            Controls.Add(label3);
+            Controls.Add(numericUpDownBet);
+            Controls.Add(buttonBet);
+            Controls.Add(labelName);
+            Controls.Add(thirdRadioButton);
+            Controls.Add(secondRadioButton);
+            Controls.Add(firstRadioButton);
+            Controls.Add(thirdBetLabel);
+            Controls.Add(secondBetLabel);
+            Controls.Add(firstBetLabel);
             Controls.Add(label2);
             Controls.Add(buttonStart);
             Controls.Add(minimumBetLabel);
@@ -226,6 +283,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownBet).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownDogId).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -241,11 +300,16 @@
         private Label minimumBetLabel;
         private Button buttonStart;
         private Label label2;
-        private Label joeBetLabel;
-        private Label bobBetLabel;
-        private Label arekBetLabel;
-        private RadioButton joeRadioButton;
-        private RadioButton bobRadioButton;
-        private RadioButton arekRadioButton;
+        private Label firstBetLabel;
+        private Label secondBetLabel;
+        private Label thirdBetLabel;
+        private RadioButton firstRadioButton;
+        private RadioButton secondRadioButton;
+        private RadioButton thirdRadioButton;
+        private Label labelName;
+        private Button buttonBet;
+        private NumericUpDown numericUpDownBet;
+        private Label label3;
+        private NumericUpDown numericUpDownDogId;
     }
 }
