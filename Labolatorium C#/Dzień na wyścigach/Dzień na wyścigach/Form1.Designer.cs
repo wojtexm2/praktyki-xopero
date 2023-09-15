@@ -239,7 +239,7 @@
             // 
             // numericUpDownDogId
             // 
-            numericUpDownDogId.Location = new Point(334, 364);
+            numericUpDownDogId.Location = new Point(334, 368);
             numericUpDownDogId.Maximum = new decimal(new int[] { 4, 0, 0, 0 });
             numericUpDownDogId.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             numericUpDownDogId.Name = "numericUpDownDogId";
