@@ -1,0 +1,17 @@
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program2 (słonie i obiekty)\program2 (słonie i obiekty)\bin\Debug\net6.0-windows\program2 (słonie i obiekty).exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program2 (słonie i obiekty)\program2 (słonie i obiekty)\bin\Debug\net6.0-windows\program2 (słonie i obiekty).deps.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program2 (słonie i obiekty)\program2 (słonie i obiekty)\bin\Debug\net6.0-windows\program2 (słonie i obiekty).runtimeconfig.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program2 (słonie i obiekty)\program2 (słonie i obiekty)\bin\Debug\net6.0-windows\program2 (słonie i obiekty).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program2 (słonie i obiekty)\program2 (słonie i obiekty)\bin\Debug\net6.0-windows\program2 (słonie i obiekty).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program2 (słonie i obiekty)\program2 (słonie i obiekty)\obj\Debug\net6.0-windows\program2 (słonie i obiekty).csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program2 (słonie i obiekty)\program2 (słonie i obiekty)\obj\Debug\net6.0-windows\program2__słonie_i_obiekty_.Form1.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program2 (słonie i obiekty)\program2 (słonie i obiekty)\obj\Debug\net6.0-windows\program2 (słonie i obiekty).csproj.GenerateResource.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program2 (słonie i obiekty)\program2 (słonie i obiekty)\obj\Debug\net6.0-windows\program2 (słonie i obiekty).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program2 (słonie i obiekty)\program2 (słonie i obiekty)\obj\Debug\net6.0-windows\program2 (słonie i obiekty).AssemblyInfoInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program2 (słonie i obiekty)\program2 (słonie i obiekty)\obj\Debug\net6.0-windows\program2 (słonie i obiekty).AssemblyInfo.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program2 (słonie i obiekty)\program2 (słonie i obiekty)\obj\Debug\net6.0-windows\program2 (słonie i obiekty).csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program2 (słonie i obiekty)\program2 (słonie i obiekty)\obj\Debug\net6.0-windows\program2 (słonie i obiekty).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program2 (słonie i obiekty)\program2 (słonie i obiekty)\obj\Debug\net6.0-windows\refint\program2 (słonie i obiekty).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program2 (słonie i obiekty)\program2 (słonie i obiekty)\obj\Debug\net6.0-windows\program2 (słonie i obiekty).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program2 (słonie i obiekty)\program2 (słonie i obiekty)\obj\Debug\net6.0-windows\program2 (słonie i obiekty).genruntimeconfig.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\program2 (słonie i obiekty)\program2 (słonie i obiekty)\obj\Debug\net6.0-windows\ref\program2 (słonie i obiekty).dll
