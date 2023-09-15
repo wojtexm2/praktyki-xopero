@@ -1,0 +1,17 @@
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\Program3 (niechlujny marek)\Program3 (niechlujny marek)\bin\Debug\net6.0-windows\Program3 (niechlujny marek).exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\Program3 (niechlujny marek)\Program3 (niechlujny marek)\bin\Debug\net6.0-windows\Program3 (niechlujny marek).deps.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\Program3 (niechlujny marek)\Program3 (niechlujny marek)\bin\Debug\net6.0-windows\Program3 (niechlujny marek).runtimeconfig.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\Program3 (niechlujny marek)\Program3 (niechlujny marek)\bin\Debug\net6.0-windows\Program3 (niechlujny marek).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\Program3 (niechlujny marek)\Program3 (niechlujny marek)\bin\Debug\net6.0-windows\Program3 (niechlujny marek).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\Program3 (niechlujny marek)\Program3 (niechlujny marek)\obj\Debug\net6.0-windows\Program3 (niechlujny marek).csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\Program3 (niechlujny marek)\Program3 (niechlujny marek)\obj\Debug\net6.0-windows\Program3__niechlujny_marek_.Form1.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\Program3 (niechlujny marek)\Program3 (niechlujny marek)\obj\Debug\net6.0-windows\Program3 (niechlujny marek).csproj.GenerateResource.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\Program3 (niechlujny marek)\Program3 (niechlujny marek)\obj\Debug\net6.0-windows\Program3 (niechlujny marek).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\Program3 (niechlujny marek)\Program3 (niechlujny marek)\obj\Debug\net6.0-windows\Program3 (niechlujny marek).AssemblyInfoInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\Program3 (niechlujny marek)\Program3 (niechlujny marek)\obj\Debug\net6.0-windows\Program3 (niechlujny marek).AssemblyInfo.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\Program3 (niechlujny marek)\Program3 (niechlujny marek)\obj\Debug\net6.0-windows\Program3 (niechlujny marek).csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\Program3 (niechlujny marek)\Program3 (niechlujny marek)\obj\Debug\net6.0-windows\Program3 (niechlujny marek).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\Program3 (niechlujny marek)\Program3 (niechlujny marek)\obj\Debug\net6.0-windows\refint\Program3 (niechlujny marek).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\Program3 (niechlujny marek)\Program3 (niechlujny marek)\obj\Debug\net6.0-windows\Program3 (niechlujny marek).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\Program3 (niechlujny marek)\Program3 (niechlujny marek)\obj\Debug\net6.0-windows\Program3 (niechlujny marek).genruntimeconfig.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział4\Program3 (niechlujny marek)\Program3 (niechlujny marek)\obj\Debug\net6.0-windows\ref\Program3 (niechlujny marek).dll
