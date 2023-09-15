@@ -8,7 +8,7 @@ namespace Dzień_na_wyścigach
 {
     internal class Greyhound
     {
-        public int StartingPosition;
+        public int StartingPosition = 22;
         public int RacetrackLength;
         public PictureBox MyPictureBox = null;
         public int Location = 0;
