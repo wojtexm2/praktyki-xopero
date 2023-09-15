@@ -25,5 +25,12 @@ namespace program2__słonie_i_obiekty_
             lloyd = lucinda;
             lucinda = tempElephant;
         }
+
+        private void buttonZepsuj_Click(object sender, EventArgs e)
+        {
+            lloyd = lucinda;
+            lloyd.EarSize = 4321;
+            lloyd.WhoAmI();
+        }
     }
 }

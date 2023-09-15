@@ -31,6 +31,7 @@
             buttonLucinda = new Button();
             buttonZamien = new Button();
             buttonLloyd = new Button();
+            buttonZepsuj = new Button();
             SuspendLayout();
             // 
             // buttonLucinda
@@ -63,11 +64,22 @@
             buttonLloyd.UseVisualStyleBackColor = true;
             buttonLloyd.Click += buttonLloyd_Click;
             // 
+            // buttonZepsuj
+            // 
+            buttonZepsuj.Location = new Point(54, 99);
+            buttonZepsuj.Name = "buttonZepsuj";
+            buttonZepsuj.Size = new Size(75, 23);
+            buttonZepsuj.TabIndex = 4;
+            buttonZepsuj.Text = "Zepsuj!!";
+            buttonZepsuj.UseVisualStyleBackColor = true;
+            buttonZepsuj.Click += buttonZepsuj_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(191, 106);
+            ClientSize = new Size(191, 139);
+            Controls.Add(buttonZepsuj);
             Controls.Add(buttonLloyd);
             Controls.Add(buttonZamien);
             Controls.Add(buttonLucinda);
@@ -80,5 +92,6 @@
         private Button buttonLucinda;
         private Button buttonZamien;
         private Button buttonLloyd;
+        private Button buttonZepsuj;
     }
 }
