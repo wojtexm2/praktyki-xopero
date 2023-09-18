@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             pictureBox1 = new PictureBox();
             pictureBoxHound1 = new PictureBox();
@@ -49,6 +50,7 @@
             numericUpDownBet = new NumericUpDown();
             label3 = new Label();
             numericUpDownDogId = new NumericUpDown();
+            houndTimer = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxHound1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -131,6 +133,7 @@
             buttonStart.TabIndex = 7;
             buttonStart.Text = "Start!";
             buttonStart.UseVisualStyleBackColor = true;
+            buttonStart.Click += buttonStart_Click;
             // 
             // label2
             // 
@@ -247,6 +250,12 @@
             numericUpDownDogId.TabIndex = 19;
             numericUpDownDogId.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
+            // houndTimer
+            // 
+            houndTimer.Enabled = true;
+            houndTimer.Interval = 50;
+            houndTimer.Tick += houndTimer_Tick;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -311,5 +320,6 @@
         private NumericUpDown numericUpDownBet;
         private Label label3;
         private NumericUpDown numericUpDownDogId;
+        private System.Windows.Forms.Timer houndTimer;
     }
 }
