@@ -128,28 +128,28 @@
             // 
             // firstBetLabel
             // 
-            firstBetLabel.AutoSize = true;
+            firstBetLabel.BorderStyle = BorderStyle.FixedSingle;
             firstBetLabel.Location = new Point(185, 48);
             firstBetLabel.Name = "firstBetLabel";
-            firstBetLabel.Size = new Size(68, 15);
+            firstBetLabel.Size = new Size(235, 17);
             firstBetLabel.TabIndex = 9;
             firstBetLabel.Text = "joeBetLabel";
             // 
             // secondBetLabel
             // 
-            secondBetLabel.AutoSize = true;
+            secondBetLabel.BorderStyle = BorderStyle.FixedSingle;
             secondBetLabel.Location = new Point(185, 72);
             secondBetLabel.Name = "secondBetLabel";
-            secondBetLabel.Size = new Size(73, 15);
+            secondBetLabel.Size = new Size(235, 15);
             secondBetLabel.TabIndex = 10;
             secondBetLabel.Text = "bobBetLabel";
             // 
             // thirdBetLabel
             // 
-            thirdBetLabel.AutoSize = true;
+            thirdBetLabel.BorderStyle = BorderStyle.FixedSingle;
             thirdBetLabel.Location = new Point(184, 97);
             thirdBetLabel.Name = "thirdBetLabel";
-            thirdBetLabel.Size = new Size(74, 15);
+            thirdBetLabel.Size = new Size(236, 17);
             thirdBetLabel.TabIndex = 11;
             thirdBetLabel.Text = "arekBetLabel";
             // 
@@ -163,6 +163,7 @@
             firstRadioButton.TabStop = true;
             firstRadioButton.Text = "Guy 1 ma x zł";
             firstRadioButton.UseVisualStyleBackColor = true;
+            firstRadioButton.CheckedChanged += firstRadioButton_CheckedChanged;
             // 
             // secondRadioButton
             // 
@@ -174,6 +175,7 @@
             secondRadioButton.TabStop = true;
             secondRadioButton.Text = "Guy 2 ma x zł";
             secondRadioButton.UseVisualStyleBackColor = true;
+            secondRadioButton.CheckedChanged += secondRadioButton_CheckedChanged;
             // 
             // thirdRadioButton
             // 
@@ -185,21 +187,22 @@
             thirdRadioButton.TabStop = true;
             thirdRadioButton.Text = "Guy 3 ma x zł";
             thirdRadioButton.UseVisualStyleBackColor = true;
+            thirdRadioButton.CheckedChanged += thirdRadioButton_CheckedChanged;
             // 
             // labelName
             // 
             labelName.AutoSize = true;
             labelName.Location = new Point(10, 138);
             labelName.Name = "labelName";
-            labelName.Size = new Size(37, 15);
+            labelName.Size = new Size(48, 15);
             labelName.TabIndex = 15;
-            labelName.Text = "name";
+            labelName.Text = "Nikt nie";
             // 
             // buttonBet
             // 
-            buttonBet.Location = new Point(78, 134);
+            buttonBet.Location = new Point(64, 134);
             buttonBet.Name = "buttonBet";
-            buttonBet.Size = new Size(54, 23);
+            buttonBet.Size = new Size(68, 23);
             buttonBet.TabIndex = 16;
             buttonBet.Text = "stawia";
             buttonBet.UseVisualStyleBackColor = true;

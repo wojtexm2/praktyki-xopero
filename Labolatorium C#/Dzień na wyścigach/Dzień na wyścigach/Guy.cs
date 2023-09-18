@@ -33,7 +33,22 @@ namespace Dzień_na_wyścigach
         }
         public void Collect(int Winner)
         {
-            //aktualizacja etykiet i wypłata zakładu z pomocą MyBet
+            int value = MyBet.payOut(Winner);
+            if (value < 0) 
+            {
+                MessageBox.Show(Name + " przegrał " + MyBet.Ammount + " zł!", "Przegrana");
+            }
+            else
+            {
+                MessageBox.Show(Name + " wygrał " + MyBet.Ammount + " zł!", "Wygrana");
+            }
+            Cash += value;
+            MyRadioButton.Text = Name + " ma " + Cash + " zł";
+            if (Cash < 0)
+            {
+                MessageBox.Show(Name + " skończył z długiem...", "Przegrana");
+            }
+
         }
     }
 }
