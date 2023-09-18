@@ -60,6 +60,8 @@
             // checkBoxDekoracjeFantazyjne
             // 
             checkBoxDekoracjeFantazyjne.AutoSize = true;
+            checkBoxDekoracjeFantazyjne.Checked = true;
+            checkBoxDekoracjeFantazyjne.CheckState = CheckState.Checked;
             checkBoxDekoracjeFantazyjne.Location = new Point(12, 56);
             checkBoxDekoracjeFantazyjne.Name = "checkBoxDekoracjeFantazyjne";
             checkBoxDekoracjeFantazyjne.Size = new Size(135, 19);
