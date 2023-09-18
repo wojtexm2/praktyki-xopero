@@ -41,7 +41,18 @@ namespace Dzień_na_wyścigach
 
         private void buttonStart_Click(object sender, EventArgs e)
         {
-            houndTimer.Enabled = true;
+            bool everyoneBetted = true;
+            for (int i=0; i < guys.Length; i++)
+            {
+                if (guys[i].MyBet.Ammount <= 0) { 
+                    everyoneBetted = false ;
+                    MessageBox.Show(guys[i].Name + " nie zawarł zakładu!", "Zakłady") ;
+                }
+            }
+            if (everyoneBetted)
+            {
+                houndTimer.Enabled = true;
+            }
         }
 
         private void houndTimer_Tick(object sender, EventArgs e)
