@@ -14,13 +14,15 @@ namespace Dzień_na_wyścigach
 
         public string GetDescription()
         {
-            throw new NotImplementedException();
-            //Janek postawił 8 zł na psa numer 4
+            return Bettor.Name + " postawił " + Ammount + " zł na psa numer " + Dog;
         }
         public int payOut(int winner)
         {
-            throw new NotImplementedException();
-            //rozumiem że int winner to numer psa który wygrał? Jeżeli == zwracam ammount, a jak != to -ammount
+            if (Dog == winner)
+            {
+                return Ammount;
+            }
+            return -Ammount;
         }
     }
 }

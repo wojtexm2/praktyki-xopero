@@ -4,7 +4,7 @@ namespace Dzień_na_wyścigach
     {
         Random random = new Random();
 
-        Guy[] guys = { };
+        Guy[] guys = new Guy[3];
         Greyhound[] hounds = new Greyhound[4];
 
         public Form1()
@@ -18,6 +18,20 @@ namespace Dzień_na_wyścigach
             {
                 hounds[i].TakeStartingPoistion();
             }
+
+            guys[0] = new Guy() { Name = "Janek", Cash = 50, MyRadioButton = firstRadioButton, MyLabel = firstBetLabel };
+            guys[1] = new Guy() { Name = "Bartek", Cash = 75, MyRadioButton = secondRadioButton, MyLabel = secondBetLabel };
+            guys[2] = new Guy() { Name = "Arek", Cash = 45, MyRadioButton = thirdRadioButton, MyLabel = thirdBetLabel };
+
+            guys[0].MyBet = new Bet() { Bettor = guys[0] };
+            guys[1].MyBet = new Bet() { Bettor = guys[1] };
+            guys[2].MyBet = new Bet() { Bettor = guys[2] };
+
+            for (int i=0; i < guys.Length; i++)
+            {
+                guys[i].ClearBet();
+                guys[i].MyRadioButton.Text = guys[i].Name + " ma " + guys[i].Cash + " zł";
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -25,16 +39,9 @@ namespace Dzień_na_wyścigach
 
         }
 
-        private void minimumBetLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void buttonStart_Click(object sender, EventArgs e)
         {
-            bool hasWon = false;
-            int winningNumber;
-
+            houndTimer.Enabled = true;
         }
 
         private void houndTimer_Tick(object sender, EventArgs e)

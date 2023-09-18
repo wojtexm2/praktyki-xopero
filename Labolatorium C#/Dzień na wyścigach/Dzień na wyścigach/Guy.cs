@@ -12,10 +12,12 @@ namespace Dzień_na_wyścigach
         public Bet MyBet;
         public int Cash;
         public RadioButton MyRadioButton;
+        public Label MyLabel;
 
         public void ClearBet()
         {
-
+            MyBet.Ammount = 0;
+            MyLabel.Text = Name + " nie zawarł zakładu";
         }
         public bool PlaceBet()
         {
@@ -24,7 +26,7 @@ namespace Dzień_na_wyścigach
         }
         public void Collect(int Winner)
         {
-            //aktualizacja etykiet i wypłata zakładu
+            //aktualizacja etykiet i wypłata zakładu z pomocą MyBet
         }
     }
 }

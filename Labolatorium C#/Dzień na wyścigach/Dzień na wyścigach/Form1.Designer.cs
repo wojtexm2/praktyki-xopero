@@ -36,7 +36,6 @@
             pictureBox4 = new PictureBox();
             pictureBox5 = new PictureBox();
             label1 = new Label();
-            minimumBetLabel = new Label();
             buttonStart = new Button();
             label2 = new Label();
             firstBetLabel = new Label();
@@ -51,6 +50,7 @@
             label3 = new Label();
             numericUpDownDogId = new NumericUpDown();
             houndTimer = new System.Windows.Forms.Timer(components);
+            minimumBetLabel = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxHound1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -114,17 +114,6 @@
             label1.TabIndex = 5;
             label1.Text = "Dom bukmacherski";
             // 
-            // minimumBetLabel
-            // 
-            minimumBetLabel.AutoSize = true;
-            minimumBetLabel.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            minimumBetLabel.Location = new Point(12, 252);
-            minimumBetLabel.Name = "minimumBetLabel";
-            minimumBetLabel.Size = new Size(109, 15);
-            minimumBetLabel.TabIndex = 6;
-            minimumBetLabel.Text = "minimumBetLabel";
-            minimumBetLabel.Click += minimumBetLabel_Click;
-            // 
             // buttonStart
             // 
             buttonStart.Location = new Point(460, 261);
@@ -177,10 +166,10 @@
             firstRadioButton.AutoSize = true;
             firstRadioButton.Location = new Point(12, 276);
             firstRadioButton.Name = "firstRadioButton";
-            firstRadioButton.Size = new Size(107, 19);
+            firstRadioButton.Size = new Size(95, 19);
             firstRadioButton.TabIndex = 12;
             firstRadioButton.TabStop = true;
-            firstRadioButton.Text = "joeRadioButton";
+            firstRadioButton.Text = "Guy 1 ma x zł";
             firstRadioButton.UseVisualStyleBackColor = true;
             // 
             // secondRadioButton
@@ -188,10 +177,10 @@
             secondRadioButton.AutoSize = true;
             secondRadioButton.Location = new Point(12, 302);
             secondRadioButton.Name = "secondRadioButton";
-            secondRadioButton.Size = new Size(112, 19);
+            secondRadioButton.Size = new Size(95, 19);
             secondRadioButton.TabIndex = 13;
             secondRadioButton.TabStop = true;
-            secondRadioButton.Text = "bobRadioButton";
+            secondRadioButton.Text = "Guy 2 ma x zł";
             secondRadioButton.UseVisualStyleBackColor = true;
             // 
             // thirdRadioButton
@@ -199,10 +188,10 @@
             thirdRadioButton.AutoSize = true;
             thirdRadioButton.Location = new Point(12, 329);
             thirdRadioButton.Name = "thirdRadioButton";
-            thirdRadioButton.Size = new Size(113, 19);
+            thirdRadioButton.Size = new Size(95, 19);
             thirdRadioButton.TabIndex = 14;
             thirdRadioButton.TabStop = true;
-            thirdRadioButton.Text = "arekRadioButton";
+            thirdRadioButton.Text = "Guy 3 ma x zł";
             thirdRadioButton.UseVisualStyleBackColor = true;
             // 
             // labelName
@@ -252,15 +241,25 @@
             // 
             // houndTimer
             // 
-            houndTimer.Enabled = true;
             houndTimer.Interval = 50;
             houndTimer.Tick += houndTimer_Tick;
+            // 
+            // minimumBetLabel
+            // 
+            minimumBetLabel.AutoSize = true;
+            minimumBetLabel.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            minimumBetLabel.Location = new Point(12, 252);
+            minimumBetLabel.Name = "minimumBetLabel";
+            minimumBetLabel.Size = new Size(126, 15);
+            minimumBetLabel.TabIndex = 20;
+            minimumBetLabel.Text = "Minimalny zakład 5 zł";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(628, 402);
+            Controls.Add(minimumBetLabel);
             Controls.Add(numericUpDownDogId);
             Controls.Add(label3);
             Controls.Add(numericUpDownBet);
@@ -274,7 +273,6 @@
             Controls.Add(firstBetLabel);
             Controls.Add(label2);
             Controls.Add(buttonStart);
-            Controls.Add(minimumBetLabel);
             Controls.Add(label1);
             Controls.Add(pictureBox5);
             Controls.Add(pictureBox4);
@@ -306,7 +304,6 @@
         private PictureBox pictureBox4;
         private PictureBox pictureBox5;
         private Label label1;
-        private Label minimumBetLabel;
         private Button buttonStart;
         private Label label2;
         private Label firstBetLabel;
@@ -321,5 +318,6 @@
         private Label label3;
         private NumericUpDown numericUpDownDogId;
         private System.Windows.Forms.Timer houndTimer;
+        private Label minimumBetLabel;
     }
 }

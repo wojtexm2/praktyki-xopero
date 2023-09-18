@@ -24,7 +24,6 @@ namespace Dzień_na_wyścigach
                 return true;
             }
             return false;
-            //return true if wygrana
         }
         public void TakeStartingPoistion()
         {
