@@ -27,7 +27,7 @@ namespace Dzień_na_wyścigach
             guys[1].MyBet = new Bet() { Bettor = guys[1] };
             guys[2].MyBet = new Bet() { Bettor = guys[2] };
 
-            for (int i=0; i < guys.Length; i++)
+            for (int i = 0; i < guys.Length; i++)
             {
                 guys[i].ClearBet();
                 guys[i].MyRadioButton.Text = guys[i].Name + " ma " + guys[i].Cash + " zł";
@@ -53,6 +53,32 @@ namespace Dzień_na_wyścigach
                     houndTimer.Enabled = false;
                 }
 
+            }
+        }
+
+        private void buttonBet_Click(object sender, EventArgs e)
+        {
+            bool noneChecked = true;
+            int hound = (int)numericUpDownDogId.Value - 1;
+            int ammount = (int)betAmmount.Value;
+            Guy someGuy;
+            for (int i = 0; i < guys.Length; i++)
+            {
+                someGuy = guys[i];
+                if (someGuy.MyRadioButton.Checked)
+                {
+                    noneChecked = false;
+                    if (someGuy.PlaceBet(ammount))
+                    {
+                        someGuy.MyBet.Ammount = ammount;
+                        someGuy.MyBet.Dog = hound;
+                        someGuy.MyLabel.Text = someGuy.Name + " stawia " + ammount + " zł na charta numer " + (hound + 1);
+                    }
+                }
+            }
+            if (noneChecked)
+            {
+                MessageBox.Show("Zaznacz jakąś osobę", "Zaznaczanie");
             }
         }
     }
