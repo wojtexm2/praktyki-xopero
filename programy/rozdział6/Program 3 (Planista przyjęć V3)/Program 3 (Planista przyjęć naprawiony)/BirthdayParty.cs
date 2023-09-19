@@ -6,25 +6,9 @@ using System.Threading.Tasks;
 
 namespace Program_3__Planista_przyjęć_naprawiony_
 {
-    internal class BirthdayParty
+    internal class BirthdayParty : Party
     {
-        public const int CostOfFoodPerPerson = 25;
-        public int NumberOfPeople { get; set; }
-        public bool FancyDecorations { get; set; }
         public string CakeWriting { get; set; }
-        public decimal Cost
-        {
-            get
-            {
-                decimal totalCost = CalculateCostOfDecorations();
-                totalCost += CostOfFoodPerPerson * NumberOfPeople;
-                decimal cakeCost;
-                if (CakeSize() == 20) cakeCost = 40M + ActualLength * .25M;
-                else cakeCost = 75M + ActualLength * .25M;
-                return totalCost + cakeCost;
-            }
-        }
-
         public bool CakeWritingTooLong
         {
             get
@@ -52,12 +36,16 @@ namespace Program_3__Planista_przyjęć_naprawiony_
             if (CakeSize() == 8) { return 16; }
             else { return 40; }
         }
-        private decimal CalculateCostOfDecorations()
+        override public decimal Cost
         {
-            decimal costOfDecorations;
-            if (FancyDecorations) costOfDecorations = (NumberOfPeople * 15.00M) + 50M;
-            else costOfDecorations = (NumberOfPeople * 7.50M) + 30M;
-            return costOfDecorations;
+            get
+            {
+                decimal totalCost = base.Cost;
+                decimal cakeCost;
+                if (CakeSize() == 20) cakeCost = 40M + ActualLength * .25M;
+                else cakeCost = 75M + ActualLength * .25M;
+                return totalCost + cakeCost;
+            }
         }
 
         public BirthdayParty(int numberOfPeople, bool fancyDecorations, string cakeWriting)
