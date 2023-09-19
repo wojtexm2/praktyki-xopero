@@ -60,6 +60,7 @@
             assignJob.TabIndex = 2;
             assignJob.Text = "Przypisz tę pracę pszczole";
             assignJob.UseVisualStyleBackColor = true;
+            assignJob.Click += assignJob_Click;
             // 
             // shifts
             // 
@@ -98,6 +99,7 @@
             nextShift.TabIndex = 1;
             nextShift.Text = "Przepracuj następną zmianę";
             nextShift.UseVisualStyleBackColor = true;
+            nextShift.Click += nextShift_Click;
             // 
             // report
             // 

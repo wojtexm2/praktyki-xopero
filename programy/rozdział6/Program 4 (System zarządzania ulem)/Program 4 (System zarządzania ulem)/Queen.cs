@@ -30,7 +30,7 @@ namespace Program_4__System_zarządzania_ulem_
             for (int i = 0; i < workers.Length; i++)
             {
                 if (workers[i].DidYouFinish()) report += "Robotnica numer" + (i + 1) + " zakończyła swoje zadanie\r\n";
-                if (String.IsNullOrEmpty(workers[i].CurrentJob)) report += "Robotnica numer " + (i + 1) + " nie pracuje";
+                if (String.IsNullOrEmpty(workers[i].CurrentJob)) report += "Robotnica numer " + (i + 1) + " nie pracuje\r\n";
                 else if (workers[i].ShiftsLeft > 0)
                 {
                     report += "Robotnica numer " + (i + 1) + " robi '" + workers[i].CurrentJob + "' jeszcze przez " +
