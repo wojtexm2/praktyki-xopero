@@ -1,0 +1,15 @@
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział6\Program 2 (virtual i override)\Program 2 (virtual i override)\bin\Debug\net6.0\Program 2 (virtual i override).exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział6\Program 2 (virtual i override)\Program 2 (virtual i override)\bin\Debug\net6.0\Program 2 (virtual i override).deps.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział6\Program 2 (virtual i override)\Program 2 (virtual i override)\bin\Debug\net6.0\Program 2 (virtual i override).runtimeconfig.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział6\Program 2 (virtual i override)\Program 2 (virtual i override)\bin\Debug\net6.0\Program 2 (virtual i override).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział6\Program 2 (virtual i override)\Program 2 (virtual i override)\bin\Debug\net6.0\Program 2 (virtual i override).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział6\Program 2 (virtual i override)\Program 2 (virtual i override)\obj\Debug\net6.0\Program 2 (virtual i override).csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział6\Program 2 (virtual i override)\Program 2 (virtual i override)\obj\Debug\net6.0\Program 2 (virtual i override).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział6\Program 2 (virtual i override)\Program 2 (virtual i override)\obj\Debug\net6.0\Program 2 (virtual i override).AssemblyInfoInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział6\Program 2 (virtual i override)\Program 2 (virtual i override)\obj\Debug\net6.0\Program 2 (virtual i override).AssemblyInfo.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział6\Program 2 (virtual i override)\Program 2 (virtual i override)\obj\Debug\net6.0\Program 2 (virtual i override).csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział6\Program 2 (virtual i override)\Program 2 (virtual i override)\obj\Debug\net6.0\Program 2 (virtual i override).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział6\Program 2 (virtual i override)\Program 2 (virtual i override)\obj\Debug\net6.0\refint\Program 2 (virtual i override).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział6\Program 2 (virtual i override)\Program 2 (virtual i override)\obj\Debug\net6.0\Program 2 (virtual i override).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział6\Program 2 (virtual i override)\Program 2 (virtual i override)\obj\Debug\net6.0\Program 2 (virtual i override).genruntimeconfig.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział6\Program 2 (virtual i override)\Program 2 (virtual i override)\obj\Debug\net6.0\ref\Program 2 (virtual i override).dll
