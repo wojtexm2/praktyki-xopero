@@ -15,7 +15,9 @@ namespace Program_3__Planista_przyjęć_naprawiony_
 
         private void DisplayBirthdayPartyCost()
         {
-            throw new NotImplementedException();
+            tooLongLabel.Visible = birthdayParty.CakeWritingTooLong;
+            decimal cost = birthdayParty.Cost;
+            birthdayCost.Text = cost.ToString("c");
         }
 
         private void fancyBox_CheckedChanged(object sender, EventArgs e)
@@ -61,6 +63,12 @@ namespace Program_3__Planista_przyjęć_naprawiony_
         private void fancyBirthday_CheckedChanged(object sender, EventArgs e)
         {
             birthdayParty.FancyDecorations = fancyBirthday.Checked;
+            DisplayBirthdayPartyCost();
+        }
+
+        private void cakeWriting_TextChanged(object sender, EventArgs e)
+        {
+            birthdayParty.CakeWriting = cakeWriting.Text;
             DisplayBirthdayPartyCost();
         }
     }

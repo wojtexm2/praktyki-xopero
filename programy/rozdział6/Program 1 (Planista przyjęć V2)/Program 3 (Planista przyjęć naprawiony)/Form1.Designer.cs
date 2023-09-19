@@ -171,6 +171,7 @@
             cakeWriting.Size = new Size(161, 23);
             cakeWriting.TabIndex = 5;
             cakeWriting.Text = "Sto lat!";
+            cakeWriting.TextChanged += cakeWriting_TextChanged;
             // 
             // tooLongLabel
             // 
