@@ -1,0 +1,17 @@
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział5\Program 2 (Kalkulator krów)\Program 2 (Kalkulator krów)\bin\Debug\net6.0-windows\Program 2 (Kalkulator krów).exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział5\Program 2 (Kalkulator krów)\Program 2 (Kalkulator krów)\bin\Debug\net6.0-windows\Program 2 (Kalkulator krów).deps.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział5\Program 2 (Kalkulator krów)\Program 2 (Kalkulator krów)\bin\Debug\net6.0-windows\Program 2 (Kalkulator krów).runtimeconfig.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział5\Program 2 (Kalkulator krów)\Program 2 (Kalkulator krów)\bin\Debug\net6.0-windows\Program 2 (Kalkulator krów).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział5\Program 2 (Kalkulator krów)\Program 2 (Kalkulator krów)\bin\Debug\net6.0-windows\Program 2 (Kalkulator krów).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział5\Program 2 (Kalkulator krów)\Program 2 (Kalkulator krów)\obj\Debug\net6.0-windows\Program 2 (Kalkulator krów).csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział5\Program 2 (Kalkulator krów)\Program 2 (Kalkulator krów)\obj\Debug\net6.0-windows\Program_2__Kalkulator_krów_.Form1.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział5\Program 2 (Kalkulator krów)\Program 2 (Kalkulator krów)\obj\Debug\net6.0-windows\Program 2 (Kalkulator krów).csproj.GenerateResource.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział5\Program 2 (Kalkulator krów)\Program 2 (Kalkulator krów)\obj\Debug\net6.0-windows\Program 2 (Kalkulator krów).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział5\Program 2 (Kalkulator krów)\Program 2 (Kalkulator krów)\obj\Debug\net6.0-windows\Program 2 (Kalkulator krów).AssemblyInfoInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział5\Program 2 (Kalkulator krów)\Program 2 (Kalkulator krów)\obj\Debug\net6.0-windows\Program 2 (Kalkulator krów).AssemblyInfo.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział5\Program 2 (Kalkulator krów)\Program 2 (Kalkulator krów)\obj\Debug\net6.0-windows\Program 2 (Kalkulator krów).csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział5\Program 2 (Kalkulator krów)\Program 2 (Kalkulator krów)\obj\Debug\net6.0-windows\Program 2 (Kalkulator krów).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział5\Program 2 (Kalkulator krów)\Program 2 (Kalkulator krów)\obj\Debug\net6.0-windows\refint\Program 2 (Kalkulator krów).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział5\Program 2 (Kalkulator krów)\Program 2 (Kalkulator krów)\obj\Debug\net6.0-windows\Program 2 (Kalkulator krów).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział5\Program 2 (Kalkulator krów)\Program 2 (Kalkulator krów)\obj\Debug\net6.0-windows\Program 2 (Kalkulator krów).genruntimeconfig.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział5\Program 2 (Kalkulator krów)\Program 2 (Kalkulator krów)\obj\Debug\net6.0-windows\ref\Program 2 (Kalkulator krów).dll
