@@ -14,6 +14,7 @@ namespace Program_2__Zuduj_dom_
         RoomWithDoor kitchen;
         Room stairs;
         RoomWithHidingPlace hallway;
+        RoomWithHidingPlace bathroom;
         RoomWithHidingPlace bedroom;
         RoomWithHidingPlace masterBedroom;
         RoomWithHidingPlace secondBedroom;
@@ -32,19 +33,33 @@ namespace Program_2__Zuduj_dom_
         }
         public void CreateObjects()
         {
-            livingRoom = new RoomWithDoor("Salon", "antyczny dywan", "dêbowe drzwi z mosiê¿n¹ klamk¹");
-            diningRoom = new Room("Jadalnia", "kryszta³owy ¿yrandol");
-            kitchen = new RoomWithDoor("Kuchnia", "nierdzewne stalowe sztuæce", "rozsuwane drzwi");
+            livingRoom = new RoomWithDoor("Salon", "antyczny dywan", "w szafie œciennej", "dêbowe drzwi z mosiê¿n¹ klamk¹");
+            diningRoom = new RoomWithHidingPlace("Jadalnia", "kryszta³owy ¿yrandol", "w wysokiej szafie");
+            kitchen = new RoomWithDoor("Kuchnia", "nierdzewne stalowe sztuæce", "w szafce", "rozsuwane drzwi");
+            stairs = new Room("Schody", "drewniana porêcz");
+            hallway = new RoomWithHidingPlace("Korytarz na górze", "obrazek z psem", "w szafie œciennej");
+            bathroom = new RoomWithHidingPlace("£azienka", "umywalka i toaleta", "pod prysznicem");
+            masterBedroom = new RoomWithHidingPlace("Du¿a sypialnia", "du¿e ³ó¿ko", "pod ³ó¿kiem");
+            secondBedroom = new RoomWithHidingPlace("Druga sypialnia", "ma³e ³ó¿ko", "pod ³óŸkiem");
+
             frontYard = new OutsideWithDoor("Podwórko przed domem", false, "dêbowe drzwi z mosiê¿n¹ klamk¹");
             backYard = new OutsideWithDoor("Podwórko za domem", true, "rozsuwane drzwi");
-            garden = new Outside("Ogród", false);
+            garden = new OutsideWithHidingPlace("Ogród", false, "w szopie");
+            driveway = new OutsideWithHidingPlace("Droga dojazdowa", true, "w gara¿u");
 
-            livingRoom.Exits = new Location[] { diningRoom };
+            livingRoom.Exits = new Location[] { diningRoom, stairs };
             diningRoom.Exits = new Location[] { livingRoom, kitchen };
             kitchen.Exits = new Location[] { diningRoom };
-            frontYard.Exits = new Location[] { backYard, garden };
-            backYard.Exits = new Location[] { frontYard, garden };
+            stairs.Exits = new Location[] { livingRoom, hallway };
+            hallway.Exits = new Location[] { stairs, bathroom, masterBedroom, secondBedroom };
+            bathroom.Exits = new Location[] { hallway };
+            masterBedroom.Exits = new Location[] { hallway };
+            secondBedroom.Exits = new Location[] { hallway };
+
+            frontYard.Exits = new Location[] { backYard, garden, driveway };
+            backYard.Exits = new Location[] { frontYard, garden, driveway };
             garden.Exits = new Location[] { backYard, frontYard };
+            driveway.Exits = new Location[] { backYard, frontYard };
 
             livingRoom.DoorLocation = frontYard;
             frontYard.DoorLocation = livingRoom;
