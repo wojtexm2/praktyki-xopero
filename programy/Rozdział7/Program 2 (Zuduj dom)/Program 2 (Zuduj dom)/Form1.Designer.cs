@@ -61,6 +61,7 @@
             goThroughTheDoor.TabIndex = 2;
             goThroughTheDoor.Text = "Przejdź przez drzwi";
             goThroughTheDoor.UseVisualStyleBackColor = true;
+            goThroughTheDoor.Click += goThroughTheDoor_Click;
             // 
             // exits
             // 
