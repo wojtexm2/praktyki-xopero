@@ -1,0 +1,34 @@
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2 (Zuduj dom)\Program 2 (Zuduj dom)\bin\Debug\net6.0-windows\Program 2 (Zuduj dom).exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2 (Zuduj dom)\Program 2 (Zuduj dom)\bin\Debug\net6.0-windows\Program 2 (Zuduj dom).deps.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2 (Zuduj dom)\Program 2 (Zuduj dom)\bin\Debug\net6.0-windows\Program 2 (Zuduj dom).runtimeconfig.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2 (Zuduj dom)\Program 2 (Zuduj dom)\bin\Debug\net6.0-windows\Program 2 (Zuduj dom).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2 (Zuduj dom)\Program 2 (Zuduj dom)\bin\Debug\net6.0-windows\Program 2 (Zuduj dom).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2 (Zuduj dom)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\Program 2 (Zuduj dom).csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2 (Zuduj dom)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\Program_2__Zuduj_dom_.Form1.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2 (Zuduj dom)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\Program 2 (Zuduj dom).csproj.GenerateResource.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2 (Zuduj dom)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\Program 2 (Zuduj dom).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2 (Zuduj dom)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\Program 2 (Zuduj dom).AssemblyInfoInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2 (Zuduj dom)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\Program 2 (Zuduj dom).AssemblyInfo.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2 (Zuduj dom)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\Program 2 (Zuduj dom).csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2 (Zuduj dom)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\Program 2 (Zuduj dom).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2 (Zuduj dom)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\refint\Program 2 (Zuduj dom).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2 (Zuduj dom)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\Program 2 (Zuduj dom).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2 (Zuduj dom)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\Program 2 (Zuduj dom).genruntimeconfig.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2 (Zuduj dom)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\ref\Program 2 (Zuduj dom).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2V2 (Gra w chowanego)\Program 2 (Zuduj dom)\bin\Debug\net6.0-windows\Program 2 (Zuduj dom).exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2V2 (Gra w chowanego)\Program 2 (Zuduj dom)\bin\Debug\net6.0-windows\Program 2 (Zuduj dom).deps.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2V2 (Gra w chowanego)\Program 2 (Zuduj dom)\bin\Debug\net6.0-windows\Program 2 (Zuduj dom).runtimeconfig.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2V2 (Gra w chowanego)\Program 2 (Zuduj dom)\bin\Debug\net6.0-windows\Program 2 (Zuduj dom).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2V2 (Gra w chowanego)\Program 2 (Zuduj dom)\bin\Debug\net6.0-windows\Program 2 (Zuduj dom).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2V2 (Gra w chowanego)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\Program 2 (Zuduj dom).csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2V2 (Gra w chowanego)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\Program_2__Zuduj_dom_.Form1.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2V2 (Gra w chowanego)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\Program 2 (Zuduj dom).csproj.GenerateResource.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2V2 (Gra w chowanego)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\Program 2 (Zuduj dom).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2V2 (Gra w chowanego)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\Program 2 (Zuduj dom).AssemblyInfoInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2V2 (Gra w chowanego)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\Program 2 (Zuduj dom).AssemblyInfo.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2V2 (Gra w chowanego)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\Program 2 (Zuduj dom).csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2V2 (Gra w chowanego)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\Program 2 (Zuduj dom).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2V2 (Gra w chowanego)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\refint\Program 2 (Zuduj dom).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2V2 (Gra w chowanego)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\Program 2 (Zuduj dom).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2V2 (Gra w chowanego)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\Program 2 (Zuduj dom).genruntimeconfig.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\Rozdział7\Program 2V2 (Gra w chowanego)\Program 2 (Zuduj dom)\obj\Debug\net6.0-windows\ref\Program 2 (Zuduj dom).dll
