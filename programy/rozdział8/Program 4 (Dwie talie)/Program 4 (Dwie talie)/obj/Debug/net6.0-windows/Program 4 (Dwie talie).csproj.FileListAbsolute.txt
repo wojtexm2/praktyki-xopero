@@ -1,0 +1,17 @@
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 4 (Dwie talie)\Program 4 (Dwie talie)\bin\Debug\net6.0-windows\Program 4 (Dwie talie).exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 4 (Dwie talie)\Program 4 (Dwie talie)\bin\Debug\net6.0-windows\Program 4 (Dwie talie).deps.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 4 (Dwie talie)\Program 4 (Dwie talie)\bin\Debug\net6.0-windows\Program 4 (Dwie talie).runtimeconfig.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 4 (Dwie talie)\Program 4 (Dwie talie)\bin\Debug\net6.0-windows\Program 4 (Dwie talie).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 4 (Dwie talie)\Program 4 (Dwie talie)\bin\Debug\net6.0-windows\Program 4 (Dwie talie).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 4 (Dwie talie)\Program 4 (Dwie talie)\obj\Debug\net6.0-windows\Program 4 (Dwie talie).csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 4 (Dwie talie)\Program 4 (Dwie talie)\obj\Debug\net6.0-windows\Program_4__Dwie_talie_.Form1.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 4 (Dwie talie)\Program 4 (Dwie talie)\obj\Debug\net6.0-windows\Program 4 (Dwie talie).csproj.GenerateResource.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 4 (Dwie talie)\Program 4 (Dwie talie)\obj\Debug\net6.0-windows\Program 4 (Dwie talie).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 4 (Dwie talie)\Program 4 (Dwie talie)\obj\Debug\net6.0-windows\Program 4 (Dwie talie).AssemblyInfoInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 4 (Dwie talie)\Program 4 (Dwie talie)\obj\Debug\net6.0-windows\Program 4 (Dwie talie).AssemblyInfo.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 4 (Dwie talie)\Program 4 (Dwie talie)\obj\Debug\net6.0-windows\Program 4 (Dwie talie).csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 4 (Dwie talie)\Program 4 (Dwie talie)\obj\Debug\net6.0-windows\Program 4 (Dwie talie).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 4 (Dwie talie)\Program 4 (Dwie talie)\obj\Debug\net6.0-windows\refint\Program 4 (Dwie talie).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 4 (Dwie talie)\Program 4 (Dwie talie)\obj\Debug\net6.0-windows\Program 4 (Dwie talie).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 4 (Dwie talie)\Program 4 (Dwie talie)\obj\Debug\net6.0-windows\Program 4 (Dwie talie).genruntimeconfig.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 4 (Dwie talie)\Program 4 (Dwie talie)\obj\Debug\net6.0-windows\ref\Program 4 (Dwie talie).dll

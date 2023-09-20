@@ -75,6 +75,7 @@
             moveToDeck2.TabIndex = 4;
             moveToDeck2.Text = ">>";
             moveToDeck2.UseVisualStyleBackColor = true;
+            moveToDeck2.Click += moveToDeck2_Click;
             // 
             // moveToDeck1
             // 
@@ -84,6 +85,7 @@
             moveToDeck1.TabIndex = 5;
             moveToDeck1.Text = "<<";
             moveToDeck1.UseVisualStyleBackColor = true;
+            moveToDeck1.Click += moveToDeck1_Click;
             // 
             // reset1
             // 
@@ -93,6 +95,7 @@
             reset1.TabIndex = 6;
             reset1.Text = "Przywróć zestaw 1.";
             reset1.UseVisualStyleBackColor = true;
+            reset1.Click += reset1_Click;
             // 
             // shuffle1
             // 
@@ -102,6 +105,7 @@
             shuffle1.TabIndex = 7;
             shuffle1.Text = "Wymieszaj zestaw 1.";
             shuffle1.UseVisualStyleBackColor = true;
+            shuffle1.Click += shuffle1_Click;
             // 
             // reset2
             // 
@@ -111,6 +115,7 @@
             reset2.TabIndex = 8;
             reset2.Text = "Przywróć zestaw 2.";
             reset2.UseVisualStyleBackColor = true;
+            reset2.Click += reset2_Click;
             // 
             // shuffle2
             // 
@@ -120,6 +125,7 @@
             shuffle2.TabIndex = 9;
             shuffle2.Text = "Wymieszaj zestaw 2.";
             shuffle2.UseVisualStyleBackColor = true;
+            shuffle2.Click += shuffle2_Click;
             // 
             // listBox2
             // 
