@@ -10,14 +10,14 @@ namespace Program_2__Zuduj_dom_
     {
         public RoomWithHidingPlace(string name, string decoration, string hidingPlaceName) : base(name, decoration)
         {
-            hidingPlaceName = hidingPlaceName;
+            HidingPlaceName = hidingPlaceName;
         }
         public string HidingPlaceName { get; private set; }
         public override string Description
         {
             get
             {
-                return base.Description + " Ktoś może ukrywać się " + HidingPlaceName + ".";
+                return base.Description + " Ktoś może ukrywać się w " + HidingPlaceName + ".";
             }
         }
     }

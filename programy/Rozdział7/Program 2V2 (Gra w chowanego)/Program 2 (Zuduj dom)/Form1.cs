@@ -88,6 +88,20 @@ namespace Program_2__Zuduj_dom_
             if (currentLocation is IHasExteriorDoor) goThroughTheDoor.Visible = true;
             else goThroughTheDoor.Visible = false;
         }
+        private void ResetGame(bool displayMessage)
+        {
+            if (displayMessage)
+            {
+                MessageBox.Show("Odnalaz³eœ mnie w " + Moves + " ruchach");
+                IHidingPlace foundLocation = currentLocation as IHidingPlace;
+                description.Text = "Znalaz³eœ przeciwnika w " + Moves + " ruchach! Ukrywa³ siê w " + foundLocation.HidingPlaceName + ".";
+            }
+            Moves = 0;
+            hide.Visible = true;
+            goHere.Visible = false;
+            check.Visible = false;
+            exits.Visible = false;
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             MoveToANewLocation(currentLocation.Exits[exits.SelectedIndex]);
@@ -102,6 +116,31 @@ namespace Program_2__Zuduj_dom_
         {
             IHasExteriorDoor hasDoor = currentLocation as IHasExteriorDoor;
             MoveToANewLocation(hasDoor.DoorLocation);
+        }
+
+        private void check_Click(object sender, EventArgs e)
+        {
+            Moves++;
+            if (opponent.Check(currentLocation)) ResetGame(true);
+            else RedrawForm();
+        }
+
+        private void hide_Click(object sender, EventArgs e)
+        {
+            hide.Visible = false;
+            for (int i = 0; i <= 10; i++)
+            {
+                opponent.Move();
+                description.Text = i + "... ";
+                Application.DoEvents();
+                System.Threading.Thread.Sleep(200);
+            }
+            description.Text = "Gotowy czy nie - nadchodzê!";
+            Application.DoEvents();
+            System.Threading.Thread.Sleep(500);
+            goHere.Visible = true;
+            exits.Visible = true;
+            MoveToANewLocation(livingRoom);
         }
     }
 }

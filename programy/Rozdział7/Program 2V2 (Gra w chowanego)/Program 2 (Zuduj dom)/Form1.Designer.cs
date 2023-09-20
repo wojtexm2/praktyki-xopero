@@ -86,6 +86,7 @@
             check.Text = "sprawdź";
             check.UseVisualStyleBackColor = true;
             check.Visible = false;
+            check.Click += check_Click;
             // 
             // hide
             // 
@@ -95,6 +96,7 @@
             hide.TabIndex = 5;
             hide.Text = "Kryj się!";
             hide.UseVisualStyleBackColor = true;
+            hide.Click += hide_Click;
             // 
             // Form1
             // 
