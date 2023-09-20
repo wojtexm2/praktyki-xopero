@@ -1,21 +1,34 @@
 using Accessibility;
+using System.Transactions;
 
 namespace Program_2__Zuduj_dom_
 {
     public partial class Form1 : Form
     {
+        int Moves;
         Location currentLocation;
+        Opponent opponent;
+
         RoomWithDoor livingRoom;
-        Room diningRoom;
+        RoomWithHidingPlace diningRoom;
         RoomWithDoor kitchen;
+        Room stairs;
+        RoomWithHidingPlace hallway;
+        RoomWithHidingPlace bedroom;
+        RoomWithHidingPlace masterBedroom;
+        RoomWithHidingPlace secondBedroom;
+
         OutsideWithDoor frontYard;
         OutsideWithDoor backYard;
-        Outside garden;
+        OutsideWithHidingPlace garden;
+        OutsideWithHidingPlace driveway;
+
         public Form1()
         {
             InitializeComponent();
             CreateObjects();
-            //MoveToANewLocation(livingRoom);
+            opponent = new Opponent(frontYard);
+            ResetGame(false);
         }
         public void CreateObjects()
         {
@@ -40,14 +53,23 @@ namespace Program_2__Zuduj_dom_
         }
         private void MoveToANewLocation(Location newLocation)
         {
+            Moves++;
             currentLocation = newLocation;
+            RedrawForm();
+        }
+        private void RedrawForm()
+        {
             exits.Items.Clear();
-            for (int i = 0; i < currentLocation.Exits.Length; i++)
-            {
-                exits.Items.Add(currentLocation.Exits[i].Name);
-            }
+            for (int i = 0; i < currentLocation.Exits.Length; i++) exits.Items.Add(currentLocation.Exits[i].Name);
             exits.SelectedIndex = 0;
-            description.Text = currentLocation.Description;
+            description.Text = currentLocation.Description + "\r\n(ruch numer " + Moves + ")";
+            if (currentLocation is IHidingPlace)
+            {
+                IHidingPlace hidingPlace = currentLocation as IHidingPlace;
+                check.Text = "SprawdŸ " + hidingPlace.HidingPlaceName;
+                check.Visible = true;
+            }
+            else check.Visible = false;
             if (currentLocation is IHasExteriorDoor) goThroughTheDoor.Visible = true;
             else goThroughTheDoor.Visible = false;
         }
