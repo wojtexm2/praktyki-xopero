@@ -1,0 +1,17 @@
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 6 (Idź na ryby) - długie\Program 6 (Idź na ryby) - długie\bin\Debug\net6.0-windows\Program 6 (Idź na ryby) - długie.exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 6 (Idź na ryby) - długie\Program 6 (Idź na ryby) - długie\bin\Debug\net6.0-windows\Program 6 (Idź na ryby) - długie.deps.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 6 (Idź na ryby) - długie\Program 6 (Idź na ryby) - długie\bin\Debug\net6.0-windows\Program 6 (Idź na ryby) - długie.runtimeconfig.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 6 (Idź na ryby) - długie\Program 6 (Idź na ryby) - długie\bin\Debug\net6.0-windows\Program 6 (Idź na ryby) - długie.dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 6 (Idź na ryby) - długie\Program 6 (Idź na ryby) - długie\bin\Debug\net6.0-windows\Program 6 (Idź na ryby) - długie.pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 6 (Idź na ryby) - długie\Program 6 (Idź na ryby) - długie\obj\Debug\net6.0-windows\Program 6 (Idź na ryby) - długie.csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 6 (Idź na ryby) - długie\Program 6 (Idź na ryby) - długie\obj\Debug\net6.0-windows\Program_6__Idź_na_ryby____długie.Form1.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 6 (Idź na ryby) - długie\Program 6 (Idź na ryby) - długie\obj\Debug\net6.0-windows\Program 6 (Idź na ryby) - długie.csproj.GenerateResource.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 6 (Idź na ryby) - długie\Program 6 (Idź na ryby) - długie\obj\Debug\net6.0-windows\Program 6 (Idź na ryby) - długie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 6 (Idź na ryby) - długie\Program 6 (Idź na ryby) - długie\obj\Debug\net6.0-windows\Program 6 (Idź na ryby) - długie.AssemblyInfoInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 6 (Idź na ryby) - długie\Program 6 (Idź na ryby) - długie\obj\Debug\net6.0-windows\Program 6 (Idź na ryby) - długie.AssemblyInfo.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 6 (Idź na ryby) - długie\Program 6 (Idź na ryby) - długie\obj\Debug\net6.0-windows\Program 6 (Idź na ryby) - długie.csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 6 (Idź na ryby) - długie\Program 6 (Idź na ryby) - długie\obj\Debug\net6.0-windows\Program 6 (Idź na ryby) - długie.dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 6 (Idź na ryby) - długie\Program 6 (Idź na ryby) - długie\obj\Debug\net6.0-windows\refint\Program 6 (Idź na ryby) - długie.dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 6 (Idź na ryby) - długie\Program 6 (Idź na ryby) - długie\obj\Debug\net6.0-windows\Program 6 (Idź na ryby) - długie.pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 6 (Idź na ryby) - długie\Program 6 (Idź na ryby) - długie\obj\Debug\net6.0-windows\Program 6 (Idź na ryby) - długie.genruntimeconfig.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 6 (Idź na ryby) - długie\Program 6 (Idź na ryby) - długie\obj\Debug\net6.0-windows\ref\Program 6 (Idź na ryby) - długie.dll
