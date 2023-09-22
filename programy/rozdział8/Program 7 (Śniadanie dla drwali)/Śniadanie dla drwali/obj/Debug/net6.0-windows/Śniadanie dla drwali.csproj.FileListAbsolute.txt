@@ -1,0 +1,17 @@
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Śniadanie dla drwali\Śniadanie dla drwali\bin\Debug\net6.0-windows\Śniadanie dla drwali.exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Śniadanie dla drwali\Śniadanie dla drwali\bin\Debug\net6.0-windows\Śniadanie dla drwali.deps.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Śniadanie dla drwali\Śniadanie dla drwali\bin\Debug\net6.0-windows\Śniadanie dla drwali.runtimeconfig.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Śniadanie dla drwali\Śniadanie dla drwali\bin\Debug\net6.0-windows\Śniadanie dla drwali.dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Śniadanie dla drwali\Śniadanie dla drwali\bin\Debug\net6.0-windows\Śniadanie dla drwali.pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Śniadanie dla drwali\Śniadanie dla drwali\obj\Debug\net6.0-windows\Śniadanie dla drwali.csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Śniadanie dla drwali\Śniadanie dla drwali\obj\Debug\net6.0-windows\Śniadanie_dla_drwali.Form1.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Śniadanie dla drwali\Śniadanie dla drwali\obj\Debug\net6.0-windows\Śniadanie dla drwali.csproj.GenerateResource.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Śniadanie dla drwali\Śniadanie dla drwali\obj\Debug\net6.0-windows\Śniadanie dla drwali.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Śniadanie dla drwali\Śniadanie dla drwali\obj\Debug\net6.0-windows\Śniadanie dla drwali.AssemblyInfoInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Śniadanie dla drwali\Śniadanie dla drwali\obj\Debug\net6.0-windows\Śniadanie dla drwali.AssemblyInfo.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Śniadanie dla drwali\Śniadanie dla drwali\obj\Debug\net6.0-windows\Śniadanie dla drwali.csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Śniadanie dla drwali\Śniadanie dla drwali\obj\Debug\net6.0-windows\Śniadanie dla drwali.dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Śniadanie dla drwali\Śniadanie dla drwali\obj\Debug\net6.0-windows\refint\Śniadanie dla drwali.dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Śniadanie dla drwali\Śniadanie dla drwali\obj\Debug\net6.0-windows\Śniadanie dla drwali.pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Śniadanie dla drwali\Śniadanie dla drwali\obj\Debug\net6.0-windows\Śniadanie dla drwali.genruntimeconfig.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Śniadanie dla drwali\Śniadanie dla drwali\obj\Debug\net6.0-windows\ref\Śniadanie dla drwali.dll

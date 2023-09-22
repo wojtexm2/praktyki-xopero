@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program 3 (losowanie i sortowanie kart)", "Program 3 (losowanie i sortowanie kart)\Program 3 (losowanie i sortowanie kart).csproj", "{917AC70D-583E-464A-893B-857E4F29497B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{917AC70D-583E-464A-893B-857E4F29497B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{917AC70D-583E-464A-893B-857E4F29497B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{917AC70D-583E-464A-893B-857E4F29497B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{917AC70D-583E-464A-893B-857E4F29497B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFAB1B2D-AA9D-4E02-A3D9-1F1A6D411F6E}
+	EndGlobalSection
+EndGlobal

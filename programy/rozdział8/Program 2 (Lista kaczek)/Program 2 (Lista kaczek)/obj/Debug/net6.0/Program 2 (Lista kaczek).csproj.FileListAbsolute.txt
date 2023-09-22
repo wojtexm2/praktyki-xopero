@@ -1,0 +1,15 @@
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 2 (Lista kaczek)\Program 2 (Lista kaczek)\bin\Debug\net6.0\Program 2 (Lista kaczek).exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 2 (Lista kaczek)\Program 2 (Lista kaczek)\bin\Debug\net6.0\Program 2 (Lista kaczek).deps.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 2 (Lista kaczek)\Program 2 (Lista kaczek)\bin\Debug\net6.0\Program 2 (Lista kaczek).runtimeconfig.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 2 (Lista kaczek)\Program 2 (Lista kaczek)\bin\Debug\net6.0\Program 2 (Lista kaczek).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 2 (Lista kaczek)\Program 2 (Lista kaczek)\bin\Debug\net6.0\Program 2 (Lista kaczek).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 2 (Lista kaczek)\Program 2 (Lista kaczek)\obj\Debug\net6.0\Program 2 (Lista kaczek).csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 2 (Lista kaczek)\Program 2 (Lista kaczek)\obj\Debug\net6.0\Program 2 (Lista kaczek).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 2 (Lista kaczek)\Program 2 (Lista kaczek)\obj\Debug\net6.0\Program 2 (Lista kaczek).AssemblyInfoInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 2 (Lista kaczek)\Program 2 (Lista kaczek)\obj\Debug\net6.0\Program 2 (Lista kaczek).AssemblyInfo.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 2 (Lista kaczek)\Program 2 (Lista kaczek)\obj\Debug\net6.0\Program 2 (Lista kaczek).csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 2 (Lista kaczek)\Program 2 (Lista kaczek)\obj\Debug\net6.0\Program 2 (Lista kaczek).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 2 (Lista kaczek)\Program 2 (Lista kaczek)\obj\Debug\net6.0\refint\Program 2 (Lista kaczek).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 2 (Lista kaczek)\Program 2 (Lista kaczek)\obj\Debug\net6.0\Program 2 (Lista kaczek).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 2 (Lista kaczek)\Program 2 (Lista kaczek)\obj\Debug\net6.0\Program 2 (Lista kaczek).genruntimeconfig.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 2 (Lista kaczek)\Program 2 (Lista kaczek)\obj\Debug\net6.0\ref\Program 2 (Lista kaczek).dll

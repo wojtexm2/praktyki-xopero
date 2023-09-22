@@ -1,0 +1,17 @@
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 1 (Enum wstęp)\Program 1 (Enum wstęp)\bin\Debug\net6.0-windows\Program 1 (Enum wstęp).exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 1 (Enum wstęp)\Program 1 (Enum wstęp)\bin\Debug\net6.0-windows\Program 1 (Enum wstęp).deps.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 1 (Enum wstęp)\Program 1 (Enum wstęp)\bin\Debug\net6.0-windows\Program 1 (Enum wstęp).runtimeconfig.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 1 (Enum wstęp)\Program 1 (Enum wstęp)\bin\Debug\net6.0-windows\Program 1 (Enum wstęp).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 1 (Enum wstęp)\Program 1 (Enum wstęp)\bin\Debug\net6.0-windows\Program 1 (Enum wstęp).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 1 (Enum wstęp)\Program 1 (Enum wstęp)\obj\Debug\net6.0-windows\Program 1 (Enum wstęp).csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 1 (Enum wstęp)\Program 1 (Enum wstęp)\obj\Debug\net6.0-windows\Program_1__Enum_wstęp_.Form1.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 1 (Enum wstęp)\Program 1 (Enum wstęp)\obj\Debug\net6.0-windows\Program 1 (Enum wstęp).csproj.GenerateResource.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 1 (Enum wstęp)\Program 1 (Enum wstęp)\obj\Debug\net6.0-windows\Program 1 (Enum wstęp).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 1 (Enum wstęp)\Program 1 (Enum wstęp)\obj\Debug\net6.0-windows\Program 1 (Enum wstęp).AssemblyInfoInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 1 (Enum wstęp)\Program 1 (Enum wstęp)\obj\Debug\net6.0-windows\Program 1 (Enum wstęp).AssemblyInfo.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 1 (Enum wstęp)\Program 1 (Enum wstęp)\obj\Debug\net6.0-windows\Program 1 (Enum wstęp).csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 1 (Enum wstęp)\Program 1 (Enum wstęp)\obj\Debug\net6.0-windows\Program 1 (Enum wstęp).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 1 (Enum wstęp)\Program 1 (Enum wstęp)\obj\Debug\net6.0-windows\refint\Program 1 (Enum wstęp).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 1 (Enum wstęp)\Program 1 (Enum wstęp)\obj\Debug\net6.0-windows\Program 1 (Enum wstęp).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 1 (Enum wstęp)\Program 1 (Enum wstęp)\obj\Debug\net6.0-windows\Program 1 (Enum wstęp).genruntimeconfig.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział8\Program 1 (Enum wstęp)\Program 1 (Enum wstęp)\obj\Debug\net6.0-windows\ref\Program 1 (Enum wstęp).dll
