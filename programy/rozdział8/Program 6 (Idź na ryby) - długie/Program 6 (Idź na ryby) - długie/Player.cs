@@ -63,7 +63,7 @@ namespace Program_6__Idź_na_ryby____długie
         }
         public void AskForACard(List<Player> players, int myIndex, Deck stock, Values value)
         {
-            textBoxOnForm.Text += Name + " pyta czy ktoś ma " + cards.Plural(value, 1) + Environment.NewLine;
+            textBoxOnForm.Text += Name + " pyta czy ktoś ma " + Card.Plural(value, 1) + Environment.NewLine;
             int totalCardsGiven = 0;
             for (int i = 0; i < players.Count; i++)
             {
