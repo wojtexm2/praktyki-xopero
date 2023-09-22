@@ -34,7 +34,7 @@
             label4 = new Label();
             description = new TextBox();
             results = new TextBox();
-            textBox4 = new TextBox();
+            fileDate = new TextBox();
             dateTimePicker1 = new DateTimePicker();
             folder = new Button();
             save = new Button();
@@ -87,6 +87,7 @@
             description.Name = "description";
             description.Size = new Size(421, 23);
             description.TabIndex = 4;
+            description.TextChanged += description_TextChanged;
             // 
             // results
             // 
@@ -94,14 +95,15 @@
             results.Name = "results";
             results.Size = new Size(421, 23);
             results.TabIndex = 5;
+            results.TextChanged += results_TextChanged;
             // 
-            // textBox4
+            // fileDate
             // 
-            textBox4.Location = new Point(101, 93);
-            textBox4.Name = "textBox4";
-            textBox4.ReadOnly = true;
-            textBox4.Size = new Size(421, 23);
-            textBox4.TabIndex = 7;
+            fileDate.Location = new Point(101, 93);
+            fileDate.Name = "fileDate";
+            fileDate.ReadOnly = true;
+            fileDate.Size = new Size(421, 23);
+            fileDate.TabIndex = 7;
             // 
             // dateTimePicker1
             // 
@@ -109,6 +111,7 @@
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(421, 23);
             dateTimePicker1.TabIndex = 8;
+            dateTimePicker1.ValueChanged += dateTimePicker1_ValueChanged;
             // 
             // folder
             // 
@@ -151,6 +154,7 @@
             randomExcuse.TabIndex = 12;
             randomExcuse.Text = "Losowa wymówka";
             randomExcuse.UseVisualStyleBackColor = true;
+            randomExcuse.Click += randomExcuse_Click;
             // 
             // openFileDialog1
             // 
@@ -166,7 +170,7 @@
             Controls.Add(save);
             Controls.Add(folder);
             Controls.Add(dateTimePicker1);
-            Controls.Add(textBox4);
+            Controls.Add(fileDate);
             Controls.Add(results);
             Controls.Add(description);
             Controls.Add(label4);
@@ -190,7 +194,7 @@
         private Label label4;
         private TextBox description;
         private TextBox results;
-        private TextBox textBox4;
+        private TextBox fileDate;
         private DateTimePicker dateTimePicker1;
         private Button folder;
         private Button save;

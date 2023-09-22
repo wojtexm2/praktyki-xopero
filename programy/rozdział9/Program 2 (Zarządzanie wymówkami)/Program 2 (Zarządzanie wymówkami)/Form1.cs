@@ -11,6 +11,7 @@ namespace Program_2__Zarządzanie_wymówkami_
         public Form1()
         {
             InitializeComponent();
+            currentExcuse.LastUsed = dateTimePicker1.Value;
         }
 
         private void folder_Click(object sender, EventArgs e)
@@ -59,6 +60,56 @@ namespace Program_2__Zarządzanie_wymówkami_
                     UpdateForm(false);
                 }
             }
+        }
+
+        private void randomExcuse_Click(object sender, EventArgs e)
+        {
+            if (CheckChanged())
+            {
+                currentExcuse = new Excuse(random, selectedFolder);
+                UpdateForm(false);
+            }
+        }
+        private bool CheckChanged()
+        {
+            if (formChanged)
+            {
+                DialogResult result = MessageBox.Show("Bierząca wymówka nie została zapisana. Czy kontynuować?", "Ostrzeżenie", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (result == DialogResult.No) return false;
+            }
+            return true;
+        }
+
+        private void description_TextChanged(object sender, EventArgs e)
+        {
+            currentExcuse.Description = description.Text;
+            UpdateForm(true);
+        }
+
+        private void results_TextChanged(object sender, EventArgs e)
+        {
+            currentExcuse.Results = results.Text;
+            UpdateForm(true);
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            currentExcuse.LastUsed = dateTimePicker1.Value;
+            UpdateForm(true);
+        }
+        private void UpdateForm(bool changed)
+        {
+            if (!changed)
+            {
+                this.description.Text = currentExcuse.Description;
+                this.results.Text = currentExcuse.Results;
+                this.dateTimePicker1.Value = currentExcuse.LastUsed;
+                if (!String.IsNullOrEmpty(currentExcuse.ExcusePath))
+                    fileDate.Text = File.GetLastWriteTime(currentExcuse.ExcusePath).ToString();
+                this.Text = "Program do zarządzania wymówkami";
+            }
+            else this.Text = "Program do zarządzania wymówkami*";
+            this.formChanged = changed;
         }
     }
 

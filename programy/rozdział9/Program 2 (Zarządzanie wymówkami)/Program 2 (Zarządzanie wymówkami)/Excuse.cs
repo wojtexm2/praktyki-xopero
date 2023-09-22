@@ -32,7 +32,7 @@ namespace Program_2__Zarządzanie_wymówkami_
             {
                 Description = reader.ReadLine();
                 Results = reader.ReadLine();
-                LastUsed = Convert.ToDateTime(reader.ReadLine);
+                LastUsed = Convert.ToDateTime(reader.ReadLine());
             }
         }
         public void Save(string fileName)
