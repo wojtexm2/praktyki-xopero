@@ -37,7 +37,7 @@
             buttonAsk = new Button();
             textProgress = new TextBox();
             textBooks = new TextBox();
-            listBox1 = new ListBox();
+            listHand = new ListBox();
             SuspendLayout();
             // 
             // label1
@@ -91,6 +91,7 @@
             buttonStart.TabIndex = 5;
             buttonStart.Text = "Rozpocznij grę!";
             buttonStart.UseVisualStyleBackColor = true;
+            buttonStart.Click += buttonStart_Click;
             // 
             // buttonAsk
             // 
@@ -101,6 +102,7 @@
             buttonAsk.TabIndex = 6;
             buttonAsk.Text = "Zażądaj karty";
             buttonAsk.UseVisualStyleBackColor = true;
+            buttonAsk.Click += buttonAsk_Click;
             // 
             // textProgress
             // 
@@ -120,21 +122,21 @@
             textBooks.Size = new Size(378, 137);
             textBooks.TabIndex = 8;
             // 
-            // listBox1
+            // listHand
             // 
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(396, 27);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(177, 604);
-            listBox1.TabIndex = 9;
+            listHand.FormattingEnabled = true;
+            listHand.ItemHeight = 15;
+            listHand.Location = new Point(396, 27);
+            listHand.Name = "listHand";
+            listHand.Size = new Size(177, 604);
+            listHand.TabIndex = 9;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(589, 672);
-            Controls.Add(listBox1);
+            Controls.Add(listHand);
             Controls.Add(textBooks);
             Controls.Add(textProgress);
             Controls.Add(buttonAsk);
@@ -161,6 +163,6 @@
         private Button buttonAsk;
         private TextBox textProgress;
         private TextBox textBooks;
-        private ListBox listBox1;
+        private ListBox listHand;
     }
 }
