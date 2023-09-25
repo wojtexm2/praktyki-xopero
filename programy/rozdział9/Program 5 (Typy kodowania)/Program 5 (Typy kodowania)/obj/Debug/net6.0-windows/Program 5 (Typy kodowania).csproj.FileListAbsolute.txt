@@ -1,0 +1,17 @@
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (Typy kodowania)\Program 5 (Typy kodowania)\bin\Debug\net6.0-windows\Program 5 (Typy kodowania).exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (Typy kodowania)\Program 5 (Typy kodowania)\bin\Debug\net6.0-windows\Program 5 (Typy kodowania).deps.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (Typy kodowania)\Program 5 (Typy kodowania)\bin\Debug\net6.0-windows\Program 5 (Typy kodowania).runtimeconfig.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (Typy kodowania)\Program 5 (Typy kodowania)\bin\Debug\net6.0-windows\Program 5 (Typy kodowania).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (Typy kodowania)\Program 5 (Typy kodowania)\bin\Debug\net6.0-windows\Program 5 (Typy kodowania).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (Typy kodowania)\Program 5 (Typy kodowania)\obj\Debug\net6.0-windows\Program 5 (Typy kodowania).csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (Typy kodowania)\Program 5 (Typy kodowania)\obj\Debug\net6.0-windows\Program_5__Typy_kodowania_.Form1.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (Typy kodowania)\Program 5 (Typy kodowania)\obj\Debug\net6.0-windows\Program 5 (Typy kodowania).csproj.GenerateResource.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (Typy kodowania)\Program 5 (Typy kodowania)\obj\Debug\net6.0-windows\Program 5 (Typy kodowania).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (Typy kodowania)\Program 5 (Typy kodowania)\obj\Debug\net6.0-windows\Program 5 (Typy kodowania).AssemblyInfoInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (Typy kodowania)\Program 5 (Typy kodowania)\obj\Debug\net6.0-windows\Program 5 (Typy kodowania).AssemblyInfo.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (Typy kodowania)\Program 5 (Typy kodowania)\obj\Debug\net6.0-windows\Program 5 (Typy kodowania).csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (Typy kodowania)\Program 5 (Typy kodowania)\obj\Debug\net6.0-windows\Program 5 (Typy kodowania).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (Typy kodowania)\Program 5 (Typy kodowania)\obj\Debug\net6.0-windows\refint\Program 5 (Typy kodowania).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (Typy kodowania)\Program 5 (Typy kodowania)\obj\Debug\net6.0-windows\Program 5 (Typy kodowania).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (Typy kodowania)\Program 5 (Typy kodowania)\obj\Debug\net6.0-windows\Program 5 (Typy kodowania).genruntimeconfig.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (Typy kodowania)\Program 5 (Typy kodowania)\obj\Debug\net6.0-windows\ref\Program 5 (Typy kodowania).dll

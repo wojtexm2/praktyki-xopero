@@ -1,0 +1,17 @@
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 4 (Serializacja kart)\Program 4 (Serializacja kart)\bin\Debug\net6.0-windows\Program 4 (Serializacja kart).exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 4 (Serializacja kart)\Program 4 (Serializacja kart)\bin\Debug\net6.0-windows\Program 4 (Serializacja kart).deps.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 4 (Serializacja kart)\Program 4 (Serializacja kart)\bin\Debug\net6.0-windows\Program 4 (Serializacja kart).runtimeconfig.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 4 (Serializacja kart)\Program 4 (Serializacja kart)\bin\Debug\net6.0-windows\Program 4 (Serializacja kart).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 4 (Serializacja kart)\Program 4 (Serializacja kart)\bin\Debug\net6.0-windows\Program 4 (Serializacja kart).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 4 (Serializacja kart)\Program 4 (Serializacja kart)\obj\Debug\net6.0-windows\Program 4 (Serializacja kart).csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 4 (Serializacja kart)\Program 4 (Serializacja kart)\obj\Debug\net6.0-windows\Program_4__Serializacja_kart_.Form1.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 4 (Serializacja kart)\Program 4 (Serializacja kart)\obj\Debug\net6.0-windows\Program 4 (Serializacja kart).csproj.GenerateResource.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 4 (Serializacja kart)\Program 4 (Serializacja kart)\obj\Debug\net6.0-windows\Program 4 (Serializacja kart).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 4 (Serializacja kart)\Program 4 (Serializacja kart)\obj\Debug\net6.0-windows\Program 4 (Serializacja kart).AssemblyInfoInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 4 (Serializacja kart)\Program 4 (Serializacja kart)\obj\Debug\net6.0-windows\Program 4 (Serializacja kart).AssemblyInfo.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 4 (Serializacja kart)\Program 4 (Serializacja kart)\obj\Debug\net6.0-windows\Program 4 (Serializacja kart).csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 4 (Serializacja kart)\Program 4 (Serializacja kart)\obj\Debug\net6.0-windows\Program 4 (Serializacja kart).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 4 (Serializacja kart)\Program 4 (Serializacja kart)\obj\Debug\net6.0-windows\refint\Program 4 (Serializacja kart).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 4 (Serializacja kart)\Program 4 (Serializacja kart)\obj\Debug\net6.0-windows\Program 4 (Serializacja kart).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 4 (Serializacja kart)\Program 4 (Serializacja kart)\obj\Debug\net6.0-windows\Program 4 (Serializacja kart).genruntimeconfig.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 4 (Serializacja kart)\Program 4 (Serializacja kart)\obj\Debug\net6.0-windows\ref\Program 4 (Serializacja kart).dll
