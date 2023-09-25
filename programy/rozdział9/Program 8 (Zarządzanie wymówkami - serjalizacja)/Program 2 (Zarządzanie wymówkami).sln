@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program 2 (Zarządzanie wymówkami)", "Program 2 (Zarządzanie wymówkami)\Program 2 (Zarządzanie wymówkami).csproj", "{AC0D0F24-920D-4F73-B784-BE4D6F1052DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC0D0F24-920D-4F73-B784-BE4D6F1052DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0D0F24-920D-4F73-B784-BE4D6F1052DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC0D0F24-920D-4F73-B784-BE4D6F1052DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC0D0F24-920D-4F73-B784-BE4D6F1052DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA4F4A69-6F0A-4F23-9779-B13A21E13AF7}
+	EndGlobalSection
+EndGlobal
