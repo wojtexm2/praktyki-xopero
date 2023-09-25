@@ -1,0 +1,15 @@
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (BinaryWriter)\Program 5 (BinaryWriter)\bin\Debug\net6.0\Program 5 (BinaryWriter).exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (BinaryWriter)\Program 5 (BinaryWriter)\bin\Debug\net6.0\Program 5 (BinaryWriter).deps.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (BinaryWriter)\Program 5 (BinaryWriter)\bin\Debug\net6.0\Program 5 (BinaryWriter).runtimeconfig.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (BinaryWriter)\Program 5 (BinaryWriter)\bin\Debug\net6.0\Program 5 (BinaryWriter).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (BinaryWriter)\Program 5 (BinaryWriter)\bin\Debug\net6.0\Program 5 (BinaryWriter).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (BinaryWriter)\Program 5 (BinaryWriter)\obj\Debug\net6.0\Program 5 (BinaryWriter).csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (BinaryWriter)\Program 5 (BinaryWriter)\obj\Debug\net6.0\Program 5 (BinaryWriter).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (BinaryWriter)\Program 5 (BinaryWriter)\obj\Debug\net6.0\Program 5 (BinaryWriter).AssemblyInfoInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (BinaryWriter)\Program 5 (BinaryWriter)\obj\Debug\net6.0\Program 5 (BinaryWriter).AssemblyInfo.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (BinaryWriter)\Program 5 (BinaryWriter)\obj\Debug\net6.0\Program 5 (BinaryWriter).csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (BinaryWriter)\Program 5 (BinaryWriter)\obj\Debug\net6.0\Program 5 (BinaryWriter).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (BinaryWriter)\Program 5 (BinaryWriter)\obj\Debug\net6.0\refint\Program 5 (BinaryWriter).dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (BinaryWriter)\Program 5 (BinaryWriter)\obj\Debug\net6.0\Program 5 (BinaryWriter).pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (BinaryWriter)\Program 5 (BinaryWriter)\obj\Debug\net6.0\Program 5 (BinaryWriter).genruntimeconfig.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program 5 (BinaryWriter)\Program 5 (BinaryWriter)\obj\Debug\net6.0\ref\Program 5 (BinaryWriter).dll
