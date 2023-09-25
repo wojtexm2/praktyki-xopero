@@ -1,0 +1,34 @@
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\Program2 ('projekt dla facetów')\Program2 ('projekt dla facetów')\bin\Debug\net6.0-windows\Program2 ('projekt dla facetów').exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\Program2 ('projekt dla facetów')\Program2 ('projekt dla facetów')\bin\Debug\net6.0-windows\Program2 ('projekt dla facetów').deps.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\Program2 ('projekt dla facetów')\Program2 ('projekt dla facetów')\bin\Debug\net6.0-windows\Program2 ('projekt dla facetów').runtimeconfig.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\Program2 ('projekt dla facetów')\Program2 ('projekt dla facetów')\bin\Debug\net6.0-windows\Program2 ('projekt dla facetów').dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\Program2 ('projekt dla facetów')\Program2 ('projekt dla facetów')\bin\Debug\net6.0-windows\Program2 ('projekt dla facetów').pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\Program2 ('projekt dla facetów')\Program2 ('projekt dla facetów')\obj\Debug\net6.0-windows\Program2 ('projekt dla facetów').csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\Program2 ('projekt dla facetów')\Program2 ('projekt dla facetów')\obj\Debug\net6.0-windows\Program2___projekt_dla_facetów__.Form1.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\Program2 ('projekt dla facetów')\Program2 ('projekt dla facetów')\obj\Debug\net6.0-windows\Program2 ('projekt dla facetów').csproj.GenerateResource.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\Program2 ('projekt dla facetów')\Program2 ('projekt dla facetów')\obj\Debug\net6.0-windows\Program2 ('projekt dla facetów').GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\Program2 ('projekt dla facetów')\Program2 ('projekt dla facetów')\obj\Debug\net6.0-windows\Program2 ('projekt dla facetów').AssemblyInfoInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\Program2 ('projekt dla facetów')\Program2 ('projekt dla facetów')\obj\Debug\net6.0-windows\Program2 ('projekt dla facetów').AssemblyInfo.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\Program2 ('projekt dla facetów')\Program2 ('projekt dla facetów')\obj\Debug\net6.0-windows\Program2 ('projekt dla facetów').csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\Program2 ('projekt dla facetów')\Program2 ('projekt dla facetów')\obj\Debug\net6.0-windows\Program2 ('projekt dla facetów').dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\Program2 ('projekt dla facetów')\Program2 ('projekt dla facetów')\obj\Debug\net6.0-windows\refint\Program2 ('projekt dla facetów').dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\Program2 ('projekt dla facetów')\Program2 ('projekt dla facetów')\obj\Debug\net6.0-windows\Program2 ('projekt dla facetów').pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\Program2 ('projekt dla facetów')\Program2 ('projekt dla facetów')\obj\Debug\net6.0-windows\Program2 ('projekt dla facetów').genruntimeconfig.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział3\Program2 ('projekt dla facetów')\Program2 ('projekt dla facetów')\obj\Debug\net6.0-windows\ref\Program2 ('projekt dla facetów').dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program3 ('projekt dla facetów'V2)\bin\Debug\net6.0-windows\Program2 ('projekt dla facetów').exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program3 ('projekt dla facetów'V2)\bin\Debug\net6.0-windows\Program2 ('projekt dla facetów').deps.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program3 ('projekt dla facetów'V2)\bin\Debug\net6.0-windows\Program2 ('projekt dla facetów').runtimeconfig.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program3 ('projekt dla facetów'V2)\bin\Debug\net6.0-windows\Program2 ('projekt dla facetów').dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program3 ('projekt dla facetów'V2)\bin\Debug\net6.0-windows\Program2 ('projekt dla facetów').pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program3 ('projekt dla facetów'V2)\obj\Debug\net6.0-windows\Program2 ('projekt dla facetów').csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program3 ('projekt dla facetów'V2)\obj\Debug\net6.0-windows\Program2___projekt_dla_facetów__.Form1.resources
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program3 ('projekt dla facetów'V2)\obj\Debug\net6.0-windows\Program2 ('projekt dla facetów').csproj.GenerateResource.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program3 ('projekt dla facetów'V2)\obj\Debug\net6.0-windows\Program2 ('projekt dla facetów').GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program3 ('projekt dla facetów'V2)\obj\Debug\net6.0-windows\Program2 ('projekt dla facetów').AssemblyInfoInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program3 ('projekt dla facetów'V2)\obj\Debug\net6.0-windows\Program2 ('projekt dla facetów').AssemblyInfo.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program3 ('projekt dla facetów'V2)\obj\Debug\net6.0-windows\Program2 ('projekt dla facetów').csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program3 ('projekt dla facetów'V2)\obj\Debug\net6.0-windows\Program2 ('projekt dla facetów').dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program3 ('projekt dla facetów'V2)\obj\Debug\net6.0-windows\refint\Program2 ('projekt dla facetów').dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program3 ('projekt dla facetów'V2)\obj\Debug\net6.0-windows\Program2 ('projekt dla facetów').pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program3 ('projekt dla facetów'V2)\obj\Debug\net6.0-windows\Program2 ('projekt dla facetów').genruntimeconfig.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\rozdział9\Program3 ('projekt dla facetów'V2)\obj\Debug\net6.0-windows\ref\Program2 ('projekt dla facetów').dll
