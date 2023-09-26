@@ -67,6 +67,8 @@ namespace Wyprawa
                 case 1:
                     Enemies.Clear();
                     Enemies.Add(new Bat(this, GetRandomLocation(random)));
+                    Enemies.Add(new Ghost(this, GetRandomLocation(random)));
+                    Enemies.Add(new Ghoul(this, GetRandomLocation(random)));
                     WeaponInRoom = new Sword(this, GetRandomLocation(random));
                     break;
                 case 2:

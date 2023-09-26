@@ -270,14 +270,14 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.Size = new Size(160, 72);
+            tableLayoutPanel1.Size = new Size(168, 72);
             tableLayoutPanel1.TabIndex = 14;
             // 
             // ghoulHitPoints
             // 
             ghoulHitPoints.AutoSize = true;
             ghoulHitPoints.BackColor = Color.Transparent;
-            ghoulHitPoints.Location = new Point(65, 54);
+            ghoulHitPoints.Location = new Point(68, 54);
             ghoulHitPoints.Name = "ghoulHitPoints";
             ghoulHitPoints.Size = new Size(87, 15);
             ghoulHitPoints.TabIndex = 22;
@@ -287,7 +287,7 @@
             // 
             ghostHitPoints.AutoSize = true;
             ghostHitPoints.BackColor = Color.Transparent;
-            ghostHitPoints.Location = new Point(65, 36);
+            ghostHitPoints.Location = new Point(68, 36);
             ghostHitPoints.Name = "ghostHitPoints";
             ghostHitPoints.Size = new Size(86, 15);
             ghostHitPoints.TabIndex = 21;
@@ -297,7 +297,7 @@
             // 
             batHitPoints.AutoSize = true;
             batHitPoints.BackColor = Color.Transparent;
-            batHitPoints.Location = new Point(65, 18);
+            batHitPoints.Location = new Point(68, 18);
             batHitPoints.Name = "batHitPoints";
             batHitPoints.Size = new Size(73, 15);
             batHitPoints.TabIndex = 20;
@@ -317,7 +317,7 @@
             // 
             playerHitPoints.AutoSize = true;
             playerHitPoints.BackColor = Color.Transparent;
-            playerHitPoints.Location = new Point(65, 0);
+            playerHitPoints.Location = new Point(68, 0);
             playerHitPoints.Name = "playerHitPoints";
             playerHitPoints.Size = new Size(88, 15);
             playerHitPoints.TabIndex = 19;
@@ -339,9 +339,9 @@
             label1.BackColor = Color.Transparent;
             label1.Location = new Point(3, 18);
             label1.Name = "label1";
-            label1.Size = new Size(36, 15);
+            label1.Size = new Size(58, 15);
             label1.TabIndex = 15;
-            label1.Text = "Gracz";
+            label1.Text = "Nietoperz";
             // 
             // label2
             // 
@@ -349,9 +349,9 @@
             label2.BackColor = Color.Transparent;
             label2.Location = new Point(3, 0);
             label2.Name = "label2";
-            label2.Size = new Size(53, 18);
+            label2.Size = new Size(36, 15);
             label2.TabIndex = 16;
-            label2.Text = "Nietoperz";
+            label2.Text = "Gracz";
             // 
             // tableLayoutPanel2
             // 
@@ -498,6 +498,14 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(584, 361);
             Controls.Add(playerBox);
+            Controls.Add(batBox);
+            Controls.Add(ghostBox);
+            Controls.Add(ghoulBox);
+            Controls.Add(maceBox);
+            Controls.Add(bowBox);
+            Controls.Add(swordBox);
+            Controls.Add(bluePotionBox);
+            Controls.Add(redPotionBox);
             Controls.Add(label9);
             Controls.Add(label10);
             Controls.Add(tableLayoutPanel3);
@@ -508,14 +516,6 @@
             Controls.Add(slot3);
             Controls.Add(slot2);
             Controls.Add(slot1);
-            Controls.Add(maceBox);
-            Controls.Add(bowBox);
-            Controls.Add(swordBox);
-            Controls.Add(bluePotionBox);
-            Controls.Add(redPotionBox);
-            Controls.Add(ghoulBox);
-            Controls.Add(ghostBox);
-            Controls.Add(batBox);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
