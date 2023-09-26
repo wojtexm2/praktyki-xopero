@@ -15,8 +15,7 @@ namespace Wyprawa
         public override string Name { get { return "Łuk"; } }
         public override void Attack(Direction direction, Random random)
         {
-            throw new NotImplementedException();
-            //DO ZROBIENIA
+            DamageEnemy(direction, 30, 1, random);
         }
     }
 }

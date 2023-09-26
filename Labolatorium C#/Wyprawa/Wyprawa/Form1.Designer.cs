@@ -58,11 +58,11 @@
             goRight = new Button();
             label10 = new Label();
             tableLayoutPanel3 = new TableLayoutPanel();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
+            attackUp = new Button();
+            attackLeft = new Button();
+            attackDown = new Button();
             label9 = new Label();
+            attackRight = new Button();
             ((System.ComponentModel.ISupportInitialize)playerBox).BeginInit();
             ((System.ComponentModel.ISupportInitialize)batBox).BeginInit();
             ((System.ComponentModel.ISupportInitialize)ghostBox).BeginInit();
@@ -207,6 +207,7 @@
             slot1.Size = new Size(50, 50);
             slot1.TabIndex = 9;
             slot1.TabStop = false;
+            slot1.Visible = false;
             // 
             // slot2
             // 
@@ -217,6 +218,7 @@
             slot2.Size = new Size(50, 50);
             slot2.TabIndex = 10;
             slot2.TabStop = false;
+            slot2.Visible = false;
             // 
             // slot3
             // 
@@ -227,6 +229,7 @@
             slot3.Size = new Size(50, 50);
             slot3.TabIndex = 11;
             slot3.TabStop = false;
+            slot3.Visible = false;
             // 
             // slot4
             // 
@@ -237,6 +240,7 @@
             slot4.Size = new Size(50, 50);
             slot4.TabIndex = 12;
             slot4.TabStop = false;
+            slot4.Visible = false;
             // 
             // slot5
             // 
@@ -247,6 +251,7 @@
             slot5.Size = new Size(50, 50);
             slot5.TabIndex = 13;
             slot5.TabStop = false;
+            slot5.Visible = false;
             // 
             // tableLayoutPanel1
             // 
@@ -430,10 +435,10 @@
             tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
             tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
             tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
-            tableLayoutPanel3.Controls.Add(button5, 1, 1);
-            tableLayoutPanel3.Controls.Add(button6, 0, 2);
-            tableLayoutPanel3.Controls.Add(button7, 1, 2);
-            tableLayoutPanel3.Controls.Add(button8, 2, 2);
+            tableLayoutPanel3.Controls.Add(attackUp, 1, 1);
+            tableLayoutPanel3.Controls.Add(attackLeft, 0, 2);
+            tableLayoutPanel3.Controls.Add(attackDown, 1, 2);
+            tableLayoutPanel3.Controls.Add(attackRight, 2, 2);
             tableLayoutPanel3.Location = new Point(443, 260);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             tableLayoutPanel3.RowCount = 3;
@@ -443,41 +448,35 @@
             tableLayoutPanel3.Size = new Size(77, 77);
             tableLayoutPanel3.TabIndex = 16;
             // 
-            // button5
+            // attackUp
             // 
-            button5.Location = new Point(28, 28);
-            button5.Name = "button5";
-            button5.Size = new Size(19, 19);
-            button5.TabIndex = 4;
-            button5.Text = "↑";
-            button5.UseVisualStyleBackColor = true;
+            attackUp.Location = new Point(28, 28);
+            attackUp.Name = "attackUp";
+            attackUp.Size = new Size(19, 19);
+            attackUp.TabIndex = 4;
+            attackUp.Text = "↑";
+            attackUp.UseVisualStyleBackColor = true;
+            attackUp.Click += attackUp_Click;
             // 
-            // button6
+            // attackLeft
             // 
-            button6.Location = new Point(3, 53);
-            button6.Name = "button6";
-            button6.Size = new Size(19, 19);
-            button6.TabIndex = 5;
-            button6.Text = "←";
-            button6.UseVisualStyleBackColor = true;
+            attackLeft.Location = new Point(3, 53);
+            attackLeft.Name = "attackLeft";
+            attackLeft.Size = new Size(19, 19);
+            attackLeft.TabIndex = 5;
+            attackLeft.Text = "←";
+            attackLeft.UseVisualStyleBackColor = true;
+            attackLeft.Click += attackLeft_Click;
             // 
-            // button7
+            // attackDown
             // 
-            button7.Location = new Point(28, 53);
-            button7.Name = "button7";
-            button7.Size = new Size(19, 19);
-            button7.TabIndex = 6;
-            button7.Text = "↓";
-            button7.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            button8.Location = new Point(53, 53);
-            button8.Name = "button8";
-            button8.Size = new Size(19, 19);
-            button8.TabIndex = 7;
-            button8.Text = "→";
-            button8.UseVisualStyleBackColor = true;
+            attackDown.Location = new Point(28, 53);
+            attackDown.Name = "attackDown";
+            attackDown.Size = new Size(19, 19);
+            attackDown.TabIndex = 6;
+            attackDown.Text = "↓";
+            attackDown.UseVisualStyleBackColor = true;
+            attackDown.Click += attackDown_Click;
             // 
             // label9
             // 
@@ -488,6 +487,16 @@
             label9.Size = new Size(31, 15);
             label9.TabIndex = 24;
             label9.Text = "Atak";
+            // 
+            // attackRight
+            // 
+            attackRight.Location = new Point(53, 53);
+            attackRight.Name = "attackRight";
+            attackRight.Size = new Size(19, 19);
+            attackRight.TabIndex = 7;
+            attackRight.Text = "→";
+            attackRight.UseVisualStyleBackColor = true;
+            attackRight.Click += attackRight_Click;
             // 
             // Form1
             // 
@@ -577,9 +586,9 @@
         private Button goRight;
         private TableLayoutPanel tableLayoutPanel3;
         private Label label9;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
+        private Button attackUp;
+        private Button attackLeft;
+        private Button attackDown;
+        private Button attackRight;
     }
 }

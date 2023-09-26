@@ -20,7 +20,7 @@ namespace Wyprawa
             } }
         public Player(Game game, Point location) : base(game, location)
         {
-            HitPoints = 10;
+            HitPoints = 10000;
         }
         public void Hit(int maxDamage, Random random)
         {
