@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Wyprawa
 {
-    internal class Direction
+    internal enum Direction
     {
+        Up,
+        Down,
+        Left,
+        Right
     }
 }

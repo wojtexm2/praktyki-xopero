@@ -29,13 +29,21 @@ namespace Wyprawa
             Point newLocation = location;
             switch (direction)
             {
-                case direction.Up:
+                case Direction.Up:
                     if (newLocation.Y - MoveInterval >= boundaries.Top) newLocation.Y -= MoveInterval;
                     break;
-                case direction.Down:
-                    if (newLocation.Y - MoveInterval <= boundaries.Top) newLocation.Y += MoveInterval;
+                case Direction.Down:
+                    if (newLocation.Y + MoveInterval <= boundaries.Top) newLocation.Y += MoveInterval;
                     break;
+                case Direction.Left:
+                    if (newLocation.X - MoveInterval >= boundaries.Left) newLocation.X -= MoveInterval;
+                    break;
+                case Direction.Right:
+                    if (newLocation.X + MoveInterval <= boundaries.Right) newLocation.X += MoveInterval;
+                    break;
+                default: break;
             }
+            return newLocation;
         }
     }
 }
