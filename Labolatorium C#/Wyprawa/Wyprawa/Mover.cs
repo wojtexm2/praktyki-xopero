@@ -24,6 +24,11 @@ namespace Wyprawa
                 Math.Abs(location.Y - locationToCheck.Y) < distance) return true;
             else return false;
         }
+        public bool Nearby(Point locationToCheck, Point target, int distance)
+        {
+            throw new NotImplementedException();
+            //DO UZUPEŁNIENIA
+        }
         public Point Move(Direction direction, Rectangle boundaries)
         {
             Point newLocation = location;
@@ -44,6 +49,11 @@ namespace Wyprawa
                 default: break;
             }
             return newLocation;
+        }
+        public Point Move(Direction direction, Point target, Rectangle boundaries)
+        {
+            throw new NotImplementedException();
+            //DO ZROBIENIA
         }
     }
 }
