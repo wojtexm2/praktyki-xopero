@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Media;
@@ -9,7 +10,7 @@ namespace Wyprawa
 {
     internal class Game
     {
-        public IEnumerable<Enemy> Enemies { get; private set; }
+        public  List<Enemy> Enemies { get; private set; }
         public Weapon WeaponInRoom { get; private set; }
 
         private Player player;
@@ -27,7 +28,7 @@ namespace Wyprawa
             this.boundaries = boundaries;
             player = new Player(this, new Point(boundaries.Left + 10, boundaries.Top + 70));
         }
-        public void Move(ArrangeDirection direction, Random random)
+        public void Move(Direction direction, Random random)
         {
             player.Move(direction);
             foreach (Enemy enemy in Enemies) enemy.Move(random);
@@ -57,15 +58,64 @@ namespace Wyprawa
         {
             return new Point(boundaries.Left + random.Next(boundaries.Right / 10 - boundaries.Left / 10) * 10, boundaries.Top + random.Next(boundaries.Bottom / 10 - boundaries.Top / 10) * 10);
         }
-        public void NewLevel (Random random)
+        public void NewLevel(Random random)
         {
             level++;
+            Enemies = new List<Enemy>();
             switch (level)
             {
                 case 1:
-                    Enemies = new List<Enemy>();
-                    Enemies.Add(new Bat(this, GetRandomLocation(random));
+                    Enemies.Clear();
+                    Enemies.Add(new Bat(this, GetRandomLocation(random)));
                     WeaponInRoom = new Sword(this, GetRandomLocation(random));
+                    break;
+                case 2:
+                    Enemies.Clear();
+                    Enemies.Add(new Ghost(this, GetRandomLocation(random)));
+                    WeaponInRoom = new BluePotion(this, GetRandomLocation(random));
+                    break;
+                case 3:
+                    Enemies.Clear();
+                    Enemies.Add(new Ghoul(this, GetRandomLocation(random)));
+                    WeaponInRoom = new Bow(this, GetRandomLocation(random));
+                    break;
+                case 4:
+                    Enemies.Clear();
+                    Enemies.Add(new Bat(this, GetRandomLocation(random)));
+                    Enemies.Add(new Ghost(this, GetRandomLocation(random)));
+                    if (!CheckPlayerInventory("Łuk"))
+                    { WeaponInRoom = new Bow(this, GetRandomLocation(random)); }
+                    else if (!CheckPlayerInventory("Niebieska mikstura"))
+                        WeaponInRoom = new BluePotion(this, GetRandomLocation(random));
+                    break;
+                case 5:
+                    Enemies.Clear();
+                    Enemies.Add(new Bat(this, GetRandomLocation(random)));
+                    Enemies.Add(new Ghoul(this, GetRandomLocation(random)));
+                    WeaponInRoom = new RedPotion(this, GetRandomLocation(random));
+
+                    break;
+                case 6:
+
+                    Enemies.Clear();
+                    Enemies.Add(new Ghost(this, GetRandomLocation(random)));
+                    Enemies.Add(new Ghoul(this, GetRandomLocation(random)));
+                    WeaponInRoom = new Mace(this, GetRandomLocation(random));
+
+                    break;
+                case 7:
+                    Enemies.Clear();
+                    Enemies.Add(new Bat(this, GetRandomLocation(random)));
+                    Enemies.Add(new Ghost(this, GetRandomLocation(random)));
+                    Enemies.Add(new Ghoul(this, GetRandomLocation(random)));
+                    if (!CheckPlayerInventory("Buława"))
+                        WeaponInRoom = new Mace(this, GetRandomLocation(random));
+                    else if (!CheckPlayerInventory("Czerwona mikstura"))
+                        WeaponInRoom = new RedPotion(this, GetRandomLocation(random));
+                    break;
+                case 8:
+                    MessageBox.Show("Jakimś cudem wygrałeś niemożliwą grę...");
+                    Environment.Exit(0);
                     break;
             }
         }

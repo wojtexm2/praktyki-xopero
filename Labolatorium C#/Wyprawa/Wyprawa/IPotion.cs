@@ -8,5 +8,6 @@ namespace Wyprawa
 {
     internal interface IPotion
     {
+        bool Used { get; }
     }
 }

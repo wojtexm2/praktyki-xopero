@@ -39,15 +39,37 @@ namespace Wyprawa
         }
         public void Move(Direction direction)
         {
-            base.location = Move(direction, game.Boundaries);
+            location = Move(direction, game.Boundaries);
             if (!game.WeaponInRoom.PickedUp)
             {
-                //Sprawdź czy broń jest w pobliżu. Jeśli tak, podnieś ją uwu.
+                if (Nearby(game.WeaponInRoom.Location, 15))
+                {
+
+                    inventory.Add(game.WeaponInRoom);
+                    game.WeaponInRoom.PickUpWeapon();
+                    if (inventory.Count == 1)
+                    {
+                        Weapon selectweapon = inventory.First();
+                        Equip(selectweapon.Name);
+
+                    }
+                }
             }
         }
         public void Attack(Direction direction, Random random)
         {
-            //Kod atakowania
+            if (equippedWeapon != null)
+            {
+                equippedWeapon.Attack(direction, random);
+                if (equippedWeapon is IPotion)
+                {
+                    equippedWeapon.Attack(direction, random);
+                    equippedWeapon = null;
+                    Weapon frst = inventory.First();
+                    Equip((string)frst.Name);
+
+                }
+            }
         }
     }
 }
