@@ -1,0 +1,1 @@
+Gra robiona jest na moim prostym silniku pygameHat bazującym na bibliotece Pygame
