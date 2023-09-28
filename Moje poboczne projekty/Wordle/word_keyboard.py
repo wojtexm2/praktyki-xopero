@@ -7,9 +7,12 @@ class LetterButton(hat.Object):
         self._key = key
         self.sprite = hat.Sprite("assets/tile.png", collision=True)
         self._sprite_inactive = hat.Sprite("assets/tile_none.png", collision=True)
+        self._sprite_in = hat.Sprite("assets/tile_in.png", collision=True)
+        self._sprite_in_place = hat.Sprite("assets/tile_in_place.png", collision=True)
         self._sprite_active = self.sprite
         self._rowsetter = rowsetter
         self._font = hat.Font(int(self.sprite.x_size)) 
+        self.tags = ["key"]
 
         self._hovering = False
     
@@ -21,7 +24,19 @@ class LetterButton(hat.Object):
     
     def key_just_pressed(self, key):
         if key == 1 and self._hovering or ord(self._key.lower()) == key:
-            self._rowsetter.add_letter(self._key)
+            verification = self._rowsetter.add_letter(self._key)
+            if verification:
+                for k in hat.find_objects_by_tags(["key"]):
+                    k.recolor(verification)
+   
+    def recolor(self, verification):
+        if self._key in verification[2]:
+            self.sprite = self._sprite_inactive
+        elif self._key in verification[1]:
+            self.sprite = self._sprite_in
+        elif self._key in verification[0]:
+            self.sprite = self._sprite_in_place
+
     
     def draw(self):
         tile_size = self.sprite.x_size
@@ -34,15 +49,23 @@ class LetterButton(hat.Object):
 class Keyboard(hat.Object):
     def __init__(self, rowsetter):
         super().__init__()
-        self.keys = []
-        self.rowsetter = rowsetter
+        self._keys = []
+        self._rowsetter = rowsetter
+        self._characters = "QWERTYUIOPASDFGHJKLZXCVBNM"
 
     def on_create(self):
         width = 60
         spacing = width+Settings.tile_spacing
 
-        i2 = 0
-        for i, char in enumerate("QWERTYUIOPASDFGHJKLZXCVBNM"):
-            self.keys.append(hat.add_object_instance(LetterButton(char, self.rowsetter), "default", (self.x+i*spacing, self.y+i2*spacing)))
-            if i % 5 == 0:
-                i2 += spacing
+        r = 0
+        c = 0
+        rows = 4
+        breakr = len(self._characters)//rows
+        for char in self._characters:
+            self._keys.append(hat.add_object_instance(LetterButton(char, self._rowsetter), "default", (self.x+(c*spacing), self.y+(r*spacing))))
+
+            if (c < breakr):
+                c += 1
+            else:
+                c = 0
+                r += 1

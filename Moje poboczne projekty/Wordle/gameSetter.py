@@ -6,7 +6,7 @@ class GameSetter(hat.Object):
     def __init__(self, word, numberOfAttempts):
         super().__init__()
         self._NUMBER_OF_ATTEMPTS = numberOfAttempts
-        self._tilesets = [TileSet(word) for x in range(self._NUMBER_OF_ATTEMPTS)]
+        self._tilesets = [TileSet(word.upper()) for x in range(self._NUMBER_OF_ATTEMPTS)]
         self._pointer = 0
     
     def on_create(self):
@@ -15,6 +15,8 @@ class GameSetter(hat.Object):
             hat.add_object_instance(set, "default", (self.x, self.y+ypos))
     
     def add_letter(self, letter):
-        if self._tilesets[self._pointer].add_letter(letter):
-            self._pointer += 1
-            self.add_letter(letter)
+        if self._pointer < len(self._tilesets) and self._tilesets[self._pointer].add_letter(letter):
+            verification = self._tilesets[self._pointer].verify()
+            self._pointer += 1 
+            return verification
+        return False

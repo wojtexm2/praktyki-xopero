@@ -10,7 +10,13 @@ hat.Settings.window_size = (1600, 900)
 
 hat.init()
 hat.current_room.background = (255, 255, 255)
-setter = GameSetter("SUICIDE", 6)
+
+with open("lists/english.txt", "r") as f:
+    word_list = f.read().split("\n")
+
+setter = GameSetter("ciasto", 6)
+
+
 hat.add_object_instance(setter, "default", (5, 5))
 hat.add_object_instance(Keyboard(setter), "default", (6, 500))
 
