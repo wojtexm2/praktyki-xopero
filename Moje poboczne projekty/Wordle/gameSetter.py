@@ -15,6 +15,8 @@ class GameSetter(hat.Object):
             hat.add_object_instance(set, "default", (self.x, self.y+ypos))
     
     def add_letter(self, letter):
+        if self._pointer == len(self._tilesets):
+            hat.send_signal("LOST")
         if self._pointer < len(self._tilesets) and self._tilesets[self._pointer].add_letter(letter):
             verification = self._tilesets[self._pointer].verify()
             self._pointer += 1 

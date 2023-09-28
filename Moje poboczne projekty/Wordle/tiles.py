@@ -61,3 +61,7 @@ class TileSet(hat.Object):
                 self._texturing[i] = self._sprite_in
         
         return guessed, yellowed, redundant
+
+    def on_signal(self, signal):
+        if signal == "LOST":
+            print(self._CORRECT_TEXT)

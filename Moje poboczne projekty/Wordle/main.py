@@ -1,6 +1,8 @@
 import pygameHat as hat
 from gameSetter import GameSetter
 from word_keyboard import Keyboard
+from ui import Wall
+from random import choice
 
 hat.Settings.shameless_ad = False
 hat.Settings.enable_console = True
@@ -14,10 +16,11 @@ hat.current_room.background = (255, 255, 255)
 with open("lists/english.txt", "r") as f:
     word_list = f.read().split("\n")
 
-setter = GameSetter("ciasto", 6)
+setter = GameSetter(choice(word_list), 6)
 
 
 hat.add_object_instance(setter, "default", (5, 5))
 hat.add_object_instance(Keyboard(setter), "default", (6, 500))
+hat.add_object_instance(Wall(), "default")
 
 hat.start()

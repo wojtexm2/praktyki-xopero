@@ -30,13 +30,12 @@ class LetterButton(hat.Object):
                     k.recolor(verification)
    
     def recolor(self, verification):
-        if self._key in verification[2]:
+        if self._key in verification[2] and self.sprite != self._sprite_in_place and self.sprite != self._sprite_in:
             self.sprite = self._sprite_inactive
-        elif self._key in verification[1]:
+        elif self._key in verification[1] and self.sprite != self._sprite_in_place:
             self.sprite = self._sprite_in
-        elif self._key in verification[0]:
+        elif self._key in verification[0] and self._key not in verification[1]:
             self.sprite = self._sprite_in_place
-
     
     def draw(self):
         tile_size = self.sprite.x_size
