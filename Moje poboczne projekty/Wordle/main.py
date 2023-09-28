@@ -21,6 +21,6 @@ setter = GameSetter(choice(word_list), 6)
 
 hat.add_object_instance(setter, "default", (5, 5))
 hat.add_object_instance(Keyboard(setter), "default", (6, 500))
-hat.add_object_instance(Wall(), "default")
+hat.add_object_instance(Wall(setter), "default")
 
 hat.start()

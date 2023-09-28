@@ -8,6 +8,7 @@ class GameSetter(hat.Object):
         self._NUMBER_OF_ATTEMPTS = numberOfAttempts
         self._tilesets = [TileSet(word.upper()) for x in range(self._NUMBER_OF_ATTEMPTS)]
         self._pointer = 0
+        self.word = word
     
     def on_create(self):
         for number, set in enumerate(self._tilesets):
