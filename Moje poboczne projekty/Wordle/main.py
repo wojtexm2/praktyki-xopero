@@ -13,7 +13,7 @@ hat.Settings.window_size = (1600, 900)
 hat.init()
 hat.current_room.background = (255, 255, 255)
 
-with open("lists/english5.txt", "r") as f:
+with open("lists/"+hat.saveManager.load("lists/select.json")["selected"], "r") as f:
     word_list = f.read().split("\n")
 
 setter = GameSetter(choice(word_list), 6)
