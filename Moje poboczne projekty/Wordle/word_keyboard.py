@@ -45,6 +45,15 @@ class LetterButton(hat.Object):
         hat.draw_sprite(self.sprite, self.x, self.y)
         hat.draw_font((self.x+tile_size/2-char_x_size/2, self.y+tile_size/2-char_y_size/2), self._font, self._key)
 
+class ActionButton(LetterButton):
+    def __init__(self, title, rowsetter, number):
+        super().__init__(title, rowsetter)
+        self.tags = []
+        self._number = number
+    def key_just_pressed(self, key):
+        if key == 1 and self._hovering or key == self._number:
+            self._rowsetter.add_letter(self._key)
+
 class Keyboard(hat.Object):
     def __init__(self, rowsetter):
         super().__init__()
@@ -62,9 +71,9 @@ class Keyboard(hat.Object):
         breakr = len(self._characters)//rows
         for char in self._characters:
             self._keys.append(hat.add_object_instance(LetterButton(char, self._rowsetter), "default", (self.x+(c*spacing), self.y+(r*spacing))))
-
             if (c < breakr):
                 c += 1
             else:
                 c = 0
                 r += 1
+        self._keys.append(hat.add_object_instance(ActionButton("DEL", self._rowsetter, 8), "default", (self.x+(c*spacing), self.y+(r*spacing))))

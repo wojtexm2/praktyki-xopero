@@ -28,13 +28,16 @@ class TileSet(hat.Object):
 
             hat.draw_sprite(self._texturing[number], posx, self.y)
             hat.draw_font((letterx, self.y+self._tile_size/2-self._font.measure_size(letter)[1]/2), self._font, letter)
-    
+
     @property
     def tile_size(self):
         return self._tile_size
     
     def add_letter(self, letter):
-        self.text += letter
+        if letter == "DEL":
+            self.text = self.text[:-1]
+        else:
+            self.text += letter
         if len(self.text) == len(self._CORRECT_TEXT):
             return True
         else:
