@@ -1,7 +1,8 @@
-[gd_scene load_steps=11 format=3 uid="uid://dw6egmqs02e3r"]
+[gd_scene load_steps=12 format=3 uid="uid://dw6egmqs02e3r"]
 
 [ext_resource type="PackedScene" uid="uid://bojufchw6ndec" path="res://character.tscn" id="1_s70ev"]
 [ext_resource type="PackedScene" uid="uid://dlgxik3q65pa7" path="res://door.tscn" id="2_3gx24"]
+[ext_resource type="PackedScene" uid="uid://sybp66j7f5yw" path="res://pressure_plate.tscn" id="3_c7sc0"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_xdeyw"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -171,3 +172,6 @@ material = SubResource("StandardMaterial3D_gd7qb")
 
 [node name="Door" parent="." instance=ExtResource("2_3gx24")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.431771, 4.68341)
+
+[node name="PressurePlate" parent="." instance=ExtResource("3_c7sc0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.44617, 7.9754)

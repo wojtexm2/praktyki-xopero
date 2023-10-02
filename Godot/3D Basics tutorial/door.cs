@@ -23,6 +23,7 @@ public partial class door : StaticBody3D, IActivable
 		if (isOpen) return;
 		isOpen = true;
 		AnimationPlayer.Play();
+		GD.Print("DOOR ACIVATED!");
 	}
 	public void Decativate()
 	{
