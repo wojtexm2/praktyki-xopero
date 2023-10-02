@@ -25,7 +25,7 @@ public partial class door : StaticBody3D, IActivable
 		AnimationPlayer.Play();
 		GD.Print("DOOR ACIVATED!");
 	}
-	public void Decativate()
+	public void Deactivate()
 	{
 		AnimationPlayer.PlayBackwards();
 		isOpen = false;

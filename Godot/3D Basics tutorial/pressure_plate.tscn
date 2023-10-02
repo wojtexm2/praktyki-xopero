@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://sybp66j7f5yw"]
 
-[ext_resource type="Script" path="res://pressure_plate.cs" id="1_a1a03"]
+[ext_resource type="Script" path="res://pressure_plate.gd" id="1_w438s"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_qtayc"]
 size = Vector3(1, 0.125, 1)
@@ -9,7 +9,7 @@ size = Vector3(1, 0.125, 1)
 albedo_color = Color(0.4, 0.764706, 1, 1)
 
 [node name="PressurePlate" type="Node3D"]
-script = ExtResource("1_a1a03")
+script = ExtResource("1_w438s")
 
 [node name="Area3D" type="Area3D" parent="."]
 
@@ -21,5 +21,5 @@ shape = SubResource("BoxShape3D_qtayc")
 size = Vector3(1, 0.005, 1)
 material = SubResource("StandardMaterial3D_24y0q")
 
-[connection signal="body_entered" from="Area3D" to="." method="body_entered"]
-[connection signal="body_exited" from="Area3D" to="." method="body_exited"]
+[connection signal="body_entered" from="Area3D" to="." method="body_enter"]
+[connection signal="body_exited" from="Area3D" to="." method="body_exit"]
