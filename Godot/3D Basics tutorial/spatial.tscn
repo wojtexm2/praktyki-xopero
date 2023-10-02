@@ -1,6 +1,7 @@
-[gd_scene load_steps=10 format=3 uid="uid://dw6egmqs02e3r"]
+[gd_scene load_steps=11 format=3 uid="uid://dw6egmqs02e3r"]
 
 [ext_resource type="PackedScene" uid="uid://bojufchw6ndec" path="res://character.tscn" id="1_s70ev"]
+[ext_resource type="PackedScene" uid="uid://dlgxik3q65pa7" path="res://door.tscn" id="2_3gx24"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_xdeyw"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -45,7 +46,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.180901, -0.502, -0.189271)
 use_collision = true
 size = Vector3(34.335, 0.085, 31.955)
 
-[node name="CharacterBody3D" parent="." instance=ExtResource("1_s70ev")]
+[node name="player" parent="." instance=ExtResource("1_s70ev")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.807354, 8.30342)
 
 [node name="obstacles" type="Node3D" parent="."]
@@ -167,3 +168,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.214332, 1.45507, -3.93637)
 use_collision = true
 size = Vector3(6.17, 0.255, 1.242)
 material = SubResource("StandardMaterial3D_gd7qb")
+
+[node name="Door" parent="." instance=ExtResource("2_3gx24")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.431771, 4.68341)

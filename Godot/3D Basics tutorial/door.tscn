@@ -1,0 +1,76 @@
+[gd_scene load_steps=7 format=3 uid="uid://dlgxik3q65pa7"]
+
+[ext_resource type="Script" path="res://door.cs" id="1_khtet"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4eu0d"]
+size = Vector3(2.84, 2.075, 2.57)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_yrgl0"]
+size = Vector3(1.14, 2, 0.05)
+
+[sub_resource type="Animation" id="Animation_u2ws4"]
+resource_name = "DoorOpen"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Door:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, -2.02549, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_gnr65"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Door:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_fs4wr"]
+_data = {
+"DoorOpen": SubResource("Animation_u2ws4"),
+"RESET": SubResource("Animation_gnr65")
+}
+
+[node name="Door" type="StaticBody3D"]
+collision_layer = 2
+collision_mask = 0
+script = ExtResource("1_khtet")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.187424, 0)
+shape = SubResource("BoxShape3D_4eu0d")
+
+[node name="Door" type="CharacterBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Door"]
+shape = SubResource("BoxShape3D_yrgl0")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Door"]
+size = Vector3(1.14, 2, 0.05)
+
+[node name="DoorFrame" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 0)
+size = Vector3(1.36, 2.2, 0.39)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="DoorFrame"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.1, 0)
+operation = 2
+size = Vector3(1.14, 2, 1.135)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_fs4wr")
+}
