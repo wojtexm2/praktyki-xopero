@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://coraecbdolkxf"]
+
+[ext_resource type="Script" path="res://csharpscript.cs" id="1_4jj1t"]
+[ext_resource type="Script" path="res://Button.gd" id="2_0qyko"]
+
+[node name="Level1" type="Node2D"]
+
+[node name="csharpnode" type="Node2D" parent="."]
+script = ExtResource("1_4jj1t")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 17.0
+offset_top = 17.0
+offset_right = 25.0
+offset_bottom = 25.0
+text = "Call C# From GDScript"
+script = ExtResource("2_0qyko")
