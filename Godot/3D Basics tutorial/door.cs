@@ -1,13 +1,18 @@
 using Godot;
 using System;
+using System.Dynamic;
 
-public partial class door : StaticBody3D, IActivable
+public partial class door : StaticBody3D, IActivable, IInteractable
 {
 	[Export] NodePath AnimationPlayerNodePath;
 	AnimationPlayer AnimationPlayer;
+	[Export] public bool IsInteractable { get; set; } = true;
 	private bool isOpen = false;
-	// Called when the node enters the scene tree for the first time.
-	public override void _Ready()
+
+    public string InteractionText {get { return "Open"; } }
+
+    // Called when the node enters the scene tree for the first time.
+    public override void _Ready()
 	{
 		AnimationPlayer = GetNode<AnimationPlayer>(AnimationPlayerNodePath);
 		AnimationPlayer.AssignedAnimation = AnimationPlayer.GetAnimationList()[0];
@@ -23,7 +28,6 @@ public partial class door : StaticBody3D, IActivable
 		if (isOpen) return;
 		isOpen = true;
 		AnimationPlayer.Play();
-		GD.Print("DOOR ACIVATED!");
 	}
 	public void Deactivate()
 	{
@@ -34,4 +38,15 @@ public partial class door : StaticBody3D, IActivable
 	{
 		Activate();
 	}
+
+    public void Interact(Node caller)
+    {
+        Activate();
+    }
+
+    public bool CanInteract(Node caller)
+    {
+        return IsInteractable && !isOpen && caller is character;
+    }
+
 }

@@ -7,6 +7,11 @@ public partial class character : CharacterBody3D
 	Node3D Head;
 	[Export] NodePath HeadNodePath;
 	Camera3D Camera;
+
+    Godot.GodotObject CurrentInteractable;
+	[Signal] public delegate void InteractableUpdatedEventHandler(Godot.GodotObject interactable);
+	RayCast3D CameraRayCast;
+	
 	const float MouseSensitivity = 0.3f;
 
 	#region "Movement"
@@ -23,6 +28,7 @@ public partial class character : CharacterBody3D
     {
         Head = GetNode<Node3D>(HeadNodePath);
 		Camera = GetNode<Camera3D>(CameraNodePath);
+		CameraRayCast = Camera.GetNode<RayCast3D>("RayCast3D");
 		Input.MouseMode = Input.MouseModeEnum.Captured;
     }
 
@@ -60,6 +66,13 @@ public partial class character : CharacterBody3D
 
 		Velocity = velocity;
 		MoveAndSlide();
+		HandleInput();
+
+		var rayInteractable = CameraRayCast.GetCollider();
+		if (CurrentInteractable != rayInteractable) {
+			CurrentInteractable = rayInteractable;
+			EmitSignal("InteractableUpdated", CurrentInteractable);
+		}
 	}
 	public override void _Input(InputEvent @event)
 	{
@@ -80,6 +93,19 @@ public partial class character : CharacterBody3D
 
 		// Rotate left / right
 		RotateY(Mathf.DegToRad(-mouseMotion.Relative.X * MouseSensitivity));
+	}
+	public void HandleInput()
+	{
+		// Handle interaction
+		if (CameraRayCast.IsColliding() && Input.IsActionJustPressed("interact")) {
+			var interactable = CameraRayCast.GetCollider() as IInteractable;
+			if (interactable != null && interactable.CanInteract(this)) {
+				interactable.Interact(this);
+
+				// Ensure the UI knows we've pressed stuff (specifically, in we just interacted with a one-shot thing)
+				EmitSignal("InteractableUpdated", CameraRayCast.GetCollider());
+			}
+		}
 	}
 }
 

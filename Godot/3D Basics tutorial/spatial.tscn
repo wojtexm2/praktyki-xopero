@@ -20,15 +20,16 @@ tonemap_mode = 2
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_dbb0w"]
 noise_type = 4
-frequency = 0.3663
+frequency = 1.0
 
 [sub_resource type="NoiseTexture2D" id="NoiseTexture2D_7dkkv"]
+seamless = true
 noise = SubResource("FastNoiseLite_dbb0w")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qspeq"]
-albedo_color = Color(0.172549, 0.32549, 0, 1)
+albedo_color = Color(0.239216, 0.435294, 0, 1)
 albedo_texture = SubResource("NoiseTexture2D_7dkkv")
-roughness = 0.0
+metallic_specular = 0.0
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_25kb0"]
 albedo_color = Color(0.356863, 0.356863, 0.356863, 1)
@@ -59,10 +60,10 @@ shadow_enabled = true
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_vw78a")
 
-[node name="CSGBox3D2" type="CSGBox3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.180901, -0.502, -0.189271)
+[node name="Floor" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0946841, -0.502, -0.189271)
 use_collision = true
-size = Vector3(34.335, 0.085, 31.955)
+size = Vector3(67.415, 0.085, 61.485)
 material = SubResource("StandardMaterial3D_qspeq")
 
 [node name="player" parent="." instance=ExtResource("1_s70ev")]
