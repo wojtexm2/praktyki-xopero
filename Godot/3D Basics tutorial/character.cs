@@ -42,15 +42,20 @@ public partial class character : CharacterBody3D
 		// As good practice, you should replace UI actions with custom gameplay actions.
 		Vector2 inputDir = Input.GetVector("ui_left", "ui_right", "ui_up", "ui_down");
 		Vector3 direction = (Transform.Basis * new Vector3(inputDir.X, 0, inputDir.Y)).Normalized();
+		float ex_speed = Speed;
+		if (Input.IsActionPressed("character_sprint"))
+		{
+			ex_speed *= 2f;
+		}
 		if (direction != Vector3.Zero)
 		{
-			velocity.X = direction.X * Speed;
-			velocity.Z = direction.Z * Speed;
+			velocity.X = direction.X * ex_speed;
+			velocity.Z = direction.Z * ex_speed;
 		}
 		else
 		{
-			velocity.X = Mathf.MoveToward(Velocity.X, 0, Speed);
-			velocity.Z = Mathf.MoveToward(Velocity.Z, 0, Speed);
+			velocity.X = Mathf.MoveToward(Velocity.X, 0, ex_speed);
+			velocity.Z = Mathf.MoveToward(Velocity.Z, 0, ex_speed);
 		}
 
 		Velocity = velocity;
