@@ -197,6 +197,7 @@ material = SubResource("StandardMaterial3D_gd7qb")
 
 [node name="Door" parent="." instance=ExtResource("2_3gx24")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.431771, 2.25553)
+IsInteractable = false
 
 [node name="Door2" parent="." instance=ExtResource("2_3gx24")]
 transform = Transform3D(0.607437, -0.234854, -0.758857, 0.146764, 0.972031, -0.183348, 0.780692, 0, 0.624916, -8.02465, 0.154575, -5.65288)
@@ -204,10 +205,5 @@ transform = Transform3D(0.607437, -0.234854, -0.758857, 0.146764, 0.972031, -0.1
 [node name="PressurePlate" parent="." instance=ExtResource("3_c7sc0")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.424676, 3.92579)
 
-[node name="PressurePlate2" parent="." instance=ExtResource("3_c7sc0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.0067, -0.424676, -6.84415)
-
 [connection signal="OnActivated" from="PressurePlate" to="Door" method="Activate"]
 [connection signal="OnDeactivated" from="PressurePlate" to="Door" method="Deactivate"]
-[connection signal="OnActivated" from="PressurePlate2" to="Door2" method="Activate"]
-[connection signal="OnDeactivated" from="PressurePlate2" to="Door2" method="Deactivate"]
