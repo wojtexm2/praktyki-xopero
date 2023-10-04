@@ -37,7 +37,7 @@ namespace test_wydajność
             ReadThreads = new Thread[threadsWorkingOnRead];
             WriteThreads = new Thread[threadsWorkingOnWrite];
             double sizeToWritePerThread = size / threadsWorkingOnWrite;
-            Console.WriteLine("ReadPerThread: " + sizeToWritePerThread);
+            Console.WriteLine("WritePerThread: " + sizeToWritePerThread);
 
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();

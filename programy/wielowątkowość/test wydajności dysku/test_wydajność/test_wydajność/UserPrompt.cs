@@ -7,10 +7,15 @@ using System.Threading.Tasks;
 
 namespace test_wydajność
 {
-    internal class UserPrompt
+    public class UserPrompt
     {
         public static string PromptForPath()
         {
+            /*
+            へ？読んだの？
+            スマホを使いたかな。。。
+            誰でもスマホを使うのは出来ますよ！簡単すぎるね
+            */
             string path;
             Console.WriteLine("Wybierz ścieżkę do folderu");
             while (true)

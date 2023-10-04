@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace test_wydajność
 {
-    internal class Testing
+    public class Testing
     {
         private string folder;
 
@@ -16,7 +16,7 @@ namespace test_wydajność
         {
             this.folder = folder;
         }
-        private string chooseRandomFile()
+        public string chooseRandomFile()
         {
             string path;
             Random random = new Random();
