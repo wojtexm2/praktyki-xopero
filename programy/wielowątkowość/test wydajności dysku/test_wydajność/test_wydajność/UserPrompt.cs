@@ -30,21 +30,21 @@ namespace test_wydajność
             {
                 string count = Console.ReadLine();
                 if (!int.TryParse(count, out threads)) Console.WriteLine("Podaj właściwą liczbę!");
-                else if (threads < 1) Console.WriteLine("Ilość wątków musi być większa od 0!");
+                else if (threads <= 1) Console.WriteLine("Ilość wątków musi być większa od 1!");
                 else break;
             }
 
             return threads;
         }
-        public static int PromptForSize()
+        public static double PromptForSize()
         {
-            int size;
+            double size;
 
             Console.WriteLine("Podaj rozmiar danych testowych w megabajtach");
             while (true)
             {
                 string sizeString = Console.ReadLine();
-                if (!int.TryParse(sizeString, out size)) Console.WriteLine("Podaj właściwą liczbę!");
+                if (!double.TryParse(sizeString, out size)) Console.WriteLine("Podaj właściwą liczbę!");
                 else if (size < 1) Console.WriteLine("Ilość danych musi być większa od 0!");
                 else break;
             }

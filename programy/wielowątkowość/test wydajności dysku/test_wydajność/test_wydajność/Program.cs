@@ -1,41 +1,97 @@
 ﻿using System.Diagnostics;
+using System.IO;
 using System.Reflection;
 
 namespace test_wydajność
 {
     internal class Program
     {
+        string path;
         static void Main(string[] args)
         {
             string path;
-            int threadCount;
-            int size;
-            Thread[] Threads;
+            double size;
 
+            Thread[] ReadThreads;
+            Thread[] WriteThreads;
+            int threadCount;
+            int threadsWorkingOnRead;
+            int threadsWorkingOnWrite;
+          
+
+            int ammountWritten;
+            int totalFilesRead = 0;
+            double totalSpeedWrite = 0;
+            bool finishWriting = false;
+
+            //Getting values from user
             path = UserPrompt.PromptForPath();
             threadCount = UserPrompt.PromptForThreads();
             size = UserPrompt.PromptForSize();
-            Threads = new Thread[threadCount];
 
-            for (int i = 0; i < threadCount; i++)
-            {
-                Threads[i] = new Thread(fnct);
-                Threads[i].Start();
-            }
-            for (int i = 0; i < threadCount; i++)
-            {
-                Threads[i].Join();
-            }
+            //Setting thread roles
+            threadsWorkingOnRead = threadCount / 2;
+            threadsWorkingOnWrite = threadCount - threadsWorkingOnRead;
+            Console.WriteLine("Read: " + threadsWorkingOnRead + " threads");
+            Console.WriteLine("Write: " + threadsWorkingOnWrite + " threads");
+            ReadThreads = new Thread[threadsWorkingOnRead];
+            WriteThreads = new Thread[threadsWorkingOnWrite];
+            double sizeToWritePerThread = size / threadsWorkingOnWrite;
+            Console.WriteLine("ReadPerThread: " + sizeToWritePerThread);
 
-            
-        }
-        public static void fnct()
-        {
-            for (int i = 0; i < 10; i++)
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
+
+            //Ustawianie wątków
+            //Wątki odczytu
+            for (int i = 0; i < threadsWorkingOnRead; i++)
             {
-                Console.WriteLine("I exist!");
-                Thread.Sleep(1000);
+                ReadThreads[i] = new Thread(function =>
+                {
+                    Testing testing = new Testing(path);
+                    while (!finishWriting)
+                    {
+                        try
+                        {
+                            double rSpeed = testing.readSpeed();
+                            totalSpeedWrite += rSpeed;
+                            totalFilesRead++;
+                        }
+                        catch (IOException e)
+                        {
+                            continue;
+                        }
+                    }
+                });
+                ReadThreads[i].Start();
             }
+            //Wątki zapisu
+            for (int i = 0; i < threadsWorkingOnWrite; i++)
+            {
+                WriteThreads[i] = new Thread(function =>
+                {
+                    Testing testing = new Testing(path);
+                    testing.writeSpeed(sizeToWritePerThread);
+                });
+                WriteThreads[i].Start();
+            }
+            //Oczekiwanie na wątki
+            for (int i = 0; i < threadsWorkingOnWrite; i++)
+            {
+                WriteThreads[i].Join();
+            }
+            finishWriting = true;
+            for (int i = 0; i < threadsWorkingOnRead; i++)
+            {
+                ReadThreads[i].Join();
+            }
+            stopwatch.Stop();
+            Console.WriteLine("=======================");
+            Console.WriteLine("Time: *" + Math.Floor(stopwatch.Elapsed.TotalSeconds) + "s");
+            Console.WriteLine("Read: *" + Math.Floor(totalSpeedWrite / totalFilesRead) + " MB/s");
+            Console.WriteLine("Write: *");
+
+
         }
     }
 }
