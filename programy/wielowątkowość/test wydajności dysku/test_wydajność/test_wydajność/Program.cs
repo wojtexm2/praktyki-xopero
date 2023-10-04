@@ -19,9 +19,9 @@ namespace test_wydajność
             int threadsWorkingOnWrite;
           
 
-            int ammountWritten;
-            int totalFilesRead = 0;
             double totalSpeedWrite = 0;
+            int totalFilesRead = 0;
+            double totalSpeedRead = 0;
             bool finishWriting = false;
 
             //Getting values from user
@@ -54,7 +54,7 @@ namespace test_wydajność
                         try
                         {
                             double rSpeed = testing.readSpeed();
-                            totalSpeedWrite += rSpeed;
+                            totalSpeedRead += rSpeed;
                             totalFilesRead++;
                         }
                         catch (IOException e)
@@ -71,7 +71,7 @@ namespace test_wydajność
                 WriteThreads[i] = new Thread(function =>
                 {
                     Testing testing = new Testing(path);
-                    testing.writeSpeed(sizeToWritePerThread);
+                    totalSpeedWrite += testing.writeSpeed(sizeToWritePerThread);
                 });
                 WriteThreads[i].Start();
             }
@@ -88,8 +88,8 @@ namespace test_wydajność
             stopwatch.Stop();
             Console.WriteLine("=======================");
             Console.WriteLine("Time: *" + Math.Floor(stopwatch.Elapsed.TotalSeconds) + "s");
-            Console.WriteLine("Read: *" + Math.Floor(totalSpeedWrite / totalFilesRead) + " MB/s");
-            Console.WriteLine("Write: *");
+            Console.WriteLine("Read: *" + Math.Floor(totalSpeedRead / totalFilesRead) + " MB/s");
+            Console.WriteLine("Write: *" + Math.Floor(totalSpeedWrite / threadsWorkingOnWrite) + "MB/s");
 
 
         }

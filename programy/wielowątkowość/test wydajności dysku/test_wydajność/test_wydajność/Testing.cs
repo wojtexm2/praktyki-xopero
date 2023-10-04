@@ -54,8 +54,27 @@ namespace test_wydajność
         }
         public double writeSpeed(double sizeToWrite)
         {
-            Thread.Sleep(2000);
-            return 0d;
+            Stopwatch stopwatch = new Stopwatch();
+            using (MemoryStream memoryStream = new MemoryStream())
+            {
+                byte[] buffer = new byte[1024];
+
+                stopwatch.Start();
+                long bytesToWrite = (long)sizeToWrite * 1024 * 1024;
+                long bytesWritten = 0;
+
+                while (bytesWritten < bytesToWrite)
+                {
+                    int bytesToCopy = (int)Math.Min(1024, bytesToWrite - bytesWritten);
+                    memoryStream.Write(buffer, 0, bytesToCopy);
+                    bytesWritten += bytesToCopy;
+                }
+
+                stopwatch.Stop();
+            }
+            double writeSpeed = sizeToWrite / stopwatch.Elapsed.TotalSeconds;
+            Console.WriteLine("WRITTEN " + sizeToWrite + " " + writeSpeed);
+            return writeSpeed;
         }
     }
 }
