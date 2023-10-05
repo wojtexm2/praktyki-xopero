@@ -1,0 +1,15 @@
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\wielowątkowość\test wydajności dysku\test_wydajność\test_wydajność\bin\Debug\net6.0\test_wydajność.exe
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\wielowątkowość\test wydajności dysku\test_wydajność\test_wydajność\bin\Debug\net6.0\test_wydajność.deps.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\wielowątkowość\test wydajności dysku\test_wydajność\test_wydajność\bin\Debug\net6.0\test_wydajność.runtimeconfig.json
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\wielowątkowość\test wydajności dysku\test_wydajność\test_wydajność\bin\Debug\net6.0\test_wydajność.dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\wielowątkowość\test wydajności dysku\test_wydajność\test_wydajność\bin\Debug\net6.0\test_wydajność.pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\wielowątkowość\test wydajności dysku\test_wydajność\test_wydajność\obj\Debug\net6.0\test_wydajność.csproj.AssemblyReference.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\wielowątkowość\test wydajności dysku\test_wydajność\test_wydajność\obj\Debug\net6.0\test_wydajność.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\wielowątkowość\test wydajności dysku\test_wydajność\test_wydajność\obj\Debug\net6.0\test_wydajność.AssemblyInfoInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\wielowątkowość\test wydajności dysku\test_wydajność\test_wydajność\obj\Debug\net6.0\test_wydajność.AssemblyInfo.cs
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\wielowątkowość\test wydajności dysku\test_wydajność\test_wydajność\obj\Debug\net6.0\test_wydajność.csproj.CoreCompileInputs.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\wielowątkowość\test wydajności dysku\test_wydajność\test_wydajność\obj\Debug\net6.0\test_wydajność.dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\wielowątkowość\test wydajności dysku\test_wydajność\test_wydajność\obj\Debug\net6.0\refint\test_wydajność.dll
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\wielowątkowość\test wydajności dysku\test_wydajność\test_wydajność\obj\Debug\net6.0\test_wydajność.pdb
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\wielowątkowość\test wydajności dysku\test_wydajność\test_wydajność\obj\Debug\net6.0\test_wydajność.genruntimeconfig.cache
+C:\Users\Xopero\Documents\GitHub\praktyki-xopero\programy\wielowątkowość\test wydajności dysku\test_wydajność\test_wydajność\obj\Debug\net6.0\ref\test_wydajność.dll
