@@ -4,9 +4,8 @@ using System.Reflection;
 
 namespace test_wydajność
 {
-    internal class Program
+    public class Program
     {
-        string path;
         static void Main(string[] args)
         {
             string path;
@@ -88,8 +87,8 @@ namespace test_wydajność
             stopwatch.Stop();
             Console.WriteLine("=======================");
             Console.WriteLine("Time: *" + Math.Floor(stopwatch.Elapsed.TotalSeconds) + "s");
-            Console.WriteLine("Read: *" + Math.Floor(totalSpeedRead / totalFilesRead) + " MB/s");
-            Console.WriteLine("Write: *" + Math.Floor(totalSpeedWrite / threadsWorkingOnWrite) + "MB/s");
+            Console.WriteLine("Read: *" + FIleMath.CalculateReadSpeed(totalSpeedRead, totalFilesRead) + " MB/s");
+            Console.WriteLine("Write: *" + FIleMath.CalculateWriteSpeed(totalSpeedWrite, threadsWorkingOnWrite) + "MB/s");
 
 
         }
